@@ -1,0 +1,21 @@
+{
+  "name": "lumier-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fetch:api-defs": "playwright test fetch-api-definitions.spec.ts --reporter=list",
+    "fetch:ui": "playwright test fetch-ui-builder.spec.ts --reporter=list",
+    "map:deps": "node map-dependencies.mjs",
+    "assemble:ui": "node assemble-ui-export.mjs",
+    "map:screens": "node map-screen-apis.mjs",
+    "pipeline:stage1": "node pipeline-stage1.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}

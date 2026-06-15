@@ -1,0 +1,590 @@
+- generic [ref=e2]:
+  - region "Notifications alt+T"
+  - generic [ref=e398]:
+    - generic [ref=e401]:
+      - generic [ref=e403]:
+        - img "EEPC ERP" [ref=e405]
+        - generic [ref=e406]:
+          - generic [ref=e407]: EEPC ERP
+          - generic [ref=e408]: PMS / SL System
+      - generic [ref=e410]:
+        - generic [ref=e411]: Platform
+        - list [ref=e412]:
+          - listitem [ref=e413]:
+            - link "Home" [ref=e414] [cursor=pointer]:
+              - /url: /
+              - img [ref=e415]
+              - generic [ref=e418]: Home
+          - listitem [ref=e419]:
+            - button "Masters" [ref=e420]:
+              - img [ref=e421]
+              - generic [ref=e425]: Masters
+              - img [ref=e426]
+          - listitem [ref=e428]:
+            - link "Employees" [ref=e429] [cursor=pointer]:
+              - /url: /employees
+              - img [ref=e430]
+              - generic [ref=e433]: Employees
+          - listitem [ref=e434]:
+            - link "Customers" [ref=e435] [cursor=pointer]:
+              - /url: /customers
+              - img [ref=e436]
+              - generic [ref=e441]: Customers
+          - listitem [ref=e442]:
+            - button "Projects" [ref=e443]:
+              - img [ref=e444]
+              - generic [ref=e446]: Projects
+              - img [ref=e447]
+          - listitem [ref=e449]:
+            - button "Material Indents" [ref=e450]:
+              - img [ref=e451]
+              - generic [ref=e454]: Material Indents
+              - img [ref=e455]
+          - listitem [ref=e457]:
+            - link "PMS Generation" [ref=e458] [cursor=pointer]:
+              - /url: /pms-generation
+              - img [ref=e459]
+              - generic [ref=e462]: PMS Generation
+          - listitem [ref=e463]:
+            - link "Adeos Document Intelligence" [ref=e464] [cursor=pointer]:
+              - /url: /adeos_document_intelligence
+              - generic [ref=e465]: Adeos Document Intelligence
+          - listitem [ref=e466]:
+            - button "Admin" [expanded] [ref=e467]:
+              - img [ref=e468]
+              - generic [ref=e480]: Admin
+              - img [ref=e481]
+            - list [ref=e484]:
+              - listitem [ref=e485]:
+                - link "Roles & Permissions" [ref=e486] [cursor=pointer]:
+                  - /url: /admin/roles
+                  - img [ref=e487]
+                  - generic [ref=e489]: Roles & Permissions
+              - listitem [ref=e490]:
+                - link "Users" [ref=e491] [cursor=pointer]:
+                  - /url: /admin/users
+                  - img [ref=e492]
+                  - generic [ref=e497]: Users
+              - listitem [ref=e498]:
+                - link "Menu Management" [ref=e499] [cursor=pointer]:
+                  - /url: /admin/menu-management
+                  - img [ref=e500]
+                  - generic [ref=e501]: Menu Management
+              - listitem [ref=e502]:
+                - link "API Builder" [ref=e503] [cursor=pointer]:
+                  - /url: /admin/backend-builder
+                  - img [ref=e504]
+                  - generic [ref=e509]: API Builder
+              - listitem [ref=e510]:
+                - link "UI Builder" [ref=e511] [cursor=pointer]:
+                  - /url: /admin/screens
+                  - img [ref=e512]
+                  - generic [ref=e515]: UI Builder
+              - listitem [ref=e516]:
+                - link "Table Editor" [ref=e517] [cursor=pointer]:
+                  - /url: /admin/db-admin
+                  - img [ref=e518]
+                  - generic [ref=e520]: Table Editor
+              - listitem [ref=e521]:
+                - link "Component Library" [ref=e522] [cursor=pointer]:
+                  - /url: /admin/component-definitions
+                  - img [ref=e523]
+                  - generic [ref=e525]: Component Library
+              - listitem [ref=e526]:
+                - link "SQL Generator" [ref=e527] [cursor=pointer]:
+                  - /url: /admin/sql-generator
+                  - img [ref=e528]
+                  - generic [ref=e532]: SQL Generator
+              - listitem [ref=e533]:
+                - link "Data Imports" [ref=e534] [cursor=pointer]:
+                  - /url: /admin/imports
+                  - img [ref=e535]
+                  - generic [ref=e539]: Data Imports
+              - listitem [ref=e540]:
+                - link "File Explorer" [ref=e541] [cursor=pointer]:
+                  - /url: /admin/file-explorer
+                  - img [ref=e542]
+                  - generic [ref=e544]: File Explorer
+          - listitem [ref=e545]:
+            - button "Settings" [ref=e546]:
+              - img [ref=e547]
+              - generic [ref=e550]: Settings
+              - img [ref=e551]
+      - list [ref=e554]:
+        - listitem [ref=e555]:
+          - button "CS Coffee Super Admin coffee@coffeeinc.in" [ref=e556]:
+            - generic [ref=e558]: CS
+            - generic [ref=e559]:
+              - generic [ref=e560]: Coffee Super Admin
+              - generic [ref=e561]: coffee@coffeeinc.in
+            - img [ref=e562]
+      - button "Toggle Sidebar" [ref=e565]
+    - main [ref=e566]:
+      - generic [ref=e569]:
+        - button "Toggle Sidebar" [ref=e570] [cursor=pointer]:
+          - img
+          - generic [ref=e571]: Toggle Sidebar
+        - navigation "breadcrumb" [ref=e572]:
+          - list [ref=e573]:
+            - listitem [ref=e575]:
+              - link "Admin" [disabled] [ref=e576]
+            - generic [ref=e577]:
+              - listitem [ref=e578]:
+                - img [ref=e579]
+              - listitem [ref=e581]:
+                - link "Backend Builder" [disabled] [ref=e582]
+      - generic [ref=e584]:
+        - generic [ref=e585]:
+          - generic [ref=e586]:
+            - generic [ref=e587]:
+              - img [ref=e588]
+              - heading "Backend Builder" [level=1] [ref=e592]
+            - paragraph [ref=e593]: Manage dynamic API definitions with YAML configurations
+          - button "Add Definition" [ref=e594] [cursor=pointer]:
+            - img
+            - text: Add Definition
+        - generic [ref=e596]:
+          - generic [ref=e597]:
+            - generic [ref=e598]:
+              - img [ref=e599]
+              - textbox "Search modules..." [ref=e602]
+            - generic [ref=e603]:
+              - img [ref=e604]
+              - textbox "Search APIs (name, path, method)..." [ref=e607]
+          - generic [ref=e608]:
+            - generic [ref=e609]: 24 module(s)
+            - generic [ref=e610]: "|"
+            - generic [ref=e611]: 134 API definition(s)
+          - generic [ref=e612]:
+            - generic [ref=e613]:
+              - heading "Bill of materials bill_of_materials Edit module Bill of materials 7 APIs 7 active" [level=3] [ref=e614]:
+                - button "Bill of materials bill_of_materials Edit module Bill of materials 7 APIs 7 active" [expanded] [ref=e615]:
+                  - generic [ref=e616]:
+                    - generic [ref=e617]:
+                      - generic [ref=e618]:
+                        - generic [ref=e619]: Bill of materials
+                        - generic [ref=e620]: bill_of_materials
+                      - button "Edit module Bill of materials" [ref=e621] [cursor=pointer]:
+                        - img
+                    - generic [ref=e622]:
+                      - generic [ref=e623]: 7 APIs
+                      - generic [ref=e624]: 7 active
+                  - img
+              - region "Bill of materials bill_of_materials Edit module Bill of materials 7 APIs 7 active" [ref=e625]:
+                - generic [ref=e627]:
+                  - generic [ref=e628] [cursor=pointer]:
+                    - generic [ref=e629]: GET
+                    - generic [ref=e630]:
+                      - generic [ref=e631]:
+                        - generic [ref=e632]: get_bom_last_serial
+                        - generic [ref=e633]: Auth
+                      - generic [ref=e634]: "/bom/last-serial/{project_id}/{pgma_master_id}"
+                    - generic [ref=e635]: v1
+                    - generic [ref=e636]:
+                      - button [ref=e637]:
+                        - img
+                      - button [ref=e638]:
+                        - img
+                      - button [ref=e639]:
+                        - img
+                      - img [ref=e640]
+                  - generic [ref=e642] [cursor=pointer]:
+                    - generic [ref=e643]: GET
+                    - generic [ref=e644]:
+                      - generic [ref=e645]:
+                        - generic [ref=e646]: list_bom_v2
+                        - generic [ref=e647]: Auth
+                      - generic [ref=e648]: /bom/v2
+                    - generic [ref=e649]: v1
+                    - generic [ref=e650]:
+                      - button [ref=e651]:
+                        - img
+                      - button [ref=e652]:
+                        - img
+                      - button [ref=e653]:
+                        - img
+                      - img [ref=e654]
+                  - generic [ref=e656] [cursor=pointer]:
+                    - generic [ref=e657]: GET
+                    - generic [ref=e658]:
+                      - generic [ref=e659]:
+                        - generic [ref=e660]: get_bom_for_export
+                        - generic [ref=e661]: Auth
+                      - generic [ref=e662]: "/bill-of-materials/{bom_id}/export-data"
+                    - generic [ref=e663]: v1
+                    - generic [ref=e664]:
+                      - button [ref=e665]:
+                        - img
+                      - button [ref=e666]:
+                        - img
+                      - button [ref=e667]:
+                        - img
+                      - img [ref=e668]
+                  - generic [ref=e670] [cursor=pointer]:
+                    - generic [ref=e671]: GET
+                    - generic [ref=e672]:
+                      - generic [ref=e673]:
+                        - generic [ref=e674]: get_bom_v2
+                        - generic [ref=e675]: Auth
+                      - generic [ref=e676]: "/bom/v2/{bom_id}"
+                    - generic [ref=e677]: v1
+                    - generic [ref=e678]:
+                      - button [ref=e679]:
+                        - img
+                      - button [ref=e680]:
+                        - img
+                      - button [ref=e681]:
+                        - img
+                      - img [ref=e682]
+                  - generic [ref=e684] [cursor=pointer]:
+                    - generic [ref=e685]: POST
+                    - generic [ref=e686]:
+                      - generic [ref=e687]:
+                        - generic [ref=e688]: create_bom_v2
+                        - generic [ref=e689]: Auth
+                      - generic [ref=e690]: /bom/v2/create
+                    - generic [ref=e691]: v1
+                    - generic [ref=e692]:
+                      - button [ref=e693]:
+                        - img
+                      - button [ref=e694]:
+                        - img
+                      - button [ref=e695]:
+                        - img
+                      - img [ref=e696]
+                  - generic [ref=e698] [cursor=pointer]:
+                    - generic [ref=e699]: PUT
+                    - generic [ref=e700]:
+                      - generic [ref=e701]:
+                        - generic [ref=e702]: update_bom_v2
+                        - generic [ref=e703]: Auth
+                      - generic [ref=e704]: "/bom/v2/{bom_id}/update"
+                    - generic [ref=e705]: v1
+                    - generic [ref=e706]:
+                      - button [ref=e707]:
+                        - img
+                      - button [ref=e708]:
+                        - img
+                      - button [ref=e709]:
+                        - img
+                      - img [ref=e710]
+                  - generic [ref=e712] [cursor=pointer]:
+                    - generic [ref=e713]: DELETE
+                    - generic [ref=e714]:
+                      - generic [ref=e715]:
+                        - generic [ref=e716]: delete_bom_v2
+                        - generic [ref=e717]: Auth
+                      - generic [ref=e718]: "/bom/v2/{bom_id}/delete"
+                    - generic [ref=e719]: v1
+                    - generic [ref=e720]:
+                      - button [ref=e721]:
+                        - img
+                      - button [ref=e722]:
+                        - img
+                      - button [ref=e723]:
+                        - img
+                      - img [ref=e724]
+            - heading "adeos adeosxlumiere Edit module adeos 5 APIs 2 active 3 inactive" [level=3] [ref=e727]:
+              - button "adeos adeosxlumiere Edit module adeos 5 APIs 2 active 3 inactive" [ref=e728]:
+                - generic [ref=e729]:
+                  - generic [ref=e730]:
+                    - generic [ref=e731]:
+                      - generic [ref=e732]: adeos
+                      - generic [ref=e733]: adeosxlumiere
+                    - button "Edit module adeos" [ref=e734] [cursor=pointer]:
+                      - img
+                  - generic [ref=e735]:
+                    - generic [ref=e736]: 5 APIs
+                    - generic [ref=e737]: 2 active
+                    - generic [ref=e738]: 3 inactive
+                - img
+            - heading "Product Manufacturing Schedule product_manufacturing_schedule Edit module Product Manufacturing Schedule 14 APIs 14 active" [level=3] [ref=e740]:
+              - button "Product Manufacturing Schedule product_manufacturing_schedule Edit module Product Manufacturing Schedule 14 APIs 14 active" [ref=e741]:
+                - generic [ref=e742]:
+                  - generic [ref=e743]:
+                    - generic [ref=e744]:
+                      - generic [ref=e745]: Product Manufacturing Schedule
+                      - generic [ref=e746]: product_manufacturing_schedule
+                    - button "Edit module Product Manufacturing Schedule" [ref=e747] [cursor=pointer]:
+                      - img
+                  - generic [ref=e748]:
+                    - generic [ref=e749]: 14 APIs
+                    - generic [ref=e750]: 14 active
+                - img
+            - heading "Bought Out Components bought_out_components Edit module Bought Out Components 7 APIs 7 active" [level=3] [ref=e752]:
+              - button "Bought Out Components bought_out_components Edit module Bought Out Components 7 APIs 7 active" [ref=e753]:
+                - generic [ref=e754]:
+                  - generic [ref=e755]:
+                    - generic [ref=e756]:
+                      - generic [ref=e757]: Bought Out Components
+                      - generic [ref=e758]: bought_out_components
+                    - button "Edit module Bought Out Components" [ref=e759] [cursor=pointer]:
+                      - img
+                  - generic [ref=e760]:
+                    - generic [ref=e761]: 7 APIs
+                    - generic [ref=e762]: 7 active
+                - img
+            - heading "Users users Edit module Users 3 APIs 2 active 1 inactive" [level=3] [ref=e764]:
+              - button "Users users Edit module Users 3 APIs 2 active 1 inactive" [ref=e765]:
+                - generic [ref=e766]:
+                  - generic [ref=e767]:
+                    - generic [ref=e768]:
+                      - generic [ref=e769]: Users
+                      - generic [ref=e770]: users
+                    - button "Edit module Users" [ref=e771] [cursor=pointer]:
+                      - img
+                  - generic [ref=e772]:
+                    - generic [ref=e773]: 3 APIs
+                    - generic [ref=e774]: 2 active
+                    - generic [ref=e775]: 1 inactive
+                - img
+            - heading "Raw material indent raw_material_indent Edit module Raw material indent 22 APIs 22 active" [level=3] [ref=e777]:
+              - button "Raw material indent raw_material_indent Edit module Raw material indent 22 APIs 22 active" [ref=e778]:
+                - generic [ref=e779]:
+                  - generic [ref=e780]:
+                    - generic [ref=e781]:
+                      - generic [ref=e782]: Raw material indent
+                      - generic [ref=e783]: raw_material_indent
+                    - button "Edit module Raw material indent" [ref=e784] [cursor=pointer]:
+                      - img
+                  - generic [ref=e785]:
+                    - generic [ref=e786]: 22 APIs
+                    - generic [ref=e787]: 22 active
+                - img
+            - heading "PGMA Category Master pgma_category_master Edit module PGMA Category Master 1 API 1 active" [level=3] [ref=e789]:
+              - button "PGMA Category Master pgma_category_master Edit module PGMA Category Master 1 API 1 active" [ref=e790]:
+                - generic [ref=e791]:
+                  - generic [ref=e792]:
+                    - generic [ref=e793]:
+                      - generic [ref=e794]: PGMA Category Master
+                      - generic [ref=e795]: pgma_category_master
+                    - button "Edit module PGMA Category Master" [ref=e796] [cursor=pointer]:
+                      - img
+                  - generic [ref=e797]:
+                    - generic [ref=e798]: 1 API
+                    - generic [ref=e799]: 1 active
+                - img
+            - heading "Supply Conditions supply_conditions Edit module Supply Conditions 1 API 1 active" [level=3] [ref=e801]:
+              - button "Supply Conditions supply_conditions Edit module Supply Conditions 1 API 1 active" [ref=e802]:
+                - generic [ref=e803]:
+                  - generic [ref=e804]:
+                    - generic [ref=e805]:
+                      - generic [ref=e806]: Supply Conditions
+                      - generic [ref=e807]: supply_conditions
+                    - button "Edit module Supply Conditions" [ref=e808] [cursor=pointer]:
+                      - img
+                  - generic [ref=e809]:
+                    - generic [ref=e810]: 1 API
+                    - generic [ref=e811]: 1 active
+                - img
+            - heading "Drawings drawings Edit module Drawings 10 APIs 10 active" [level=3] [ref=e813]:
+              - button "Drawings drawings Edit module Drawings 10 APIs 10 active" [ref=e814]:
+                - generic [ref=e815]:
+                  - generic [ref=e816]:
+                    - generic [ref=e817]:
+                      - generic [ref=e818]: Drawings
+                      - generic [ref=e819]: drawings
+                    - button "Edit module Drawings" [ref=e820] [cursor=pointer]:
+                      - img
+                  - generic [ref=e821]:
+                    - generic [ref=e822]: 10 APIs
+                    - generic [ref=e823]: 10 active
+                - img
+            - heading "Products products Edit module Products 2 APIs 2 active" [level=3] [ref=e825]:
+              - button "Products products Edit module Products 2 APIs 2 active" [ref=e826]:
+                - generic [ref=e827]:
+                  - generic [ref=e828]:
+                    - generic [ref=e829]:
+                      - generic [ref=e830]: Products
+                      - generic [ref=e831]: products
+                    - button "Edit module Products" [ref=e832] [cursor=pointer]:
+                      - img
+                  - generic [ref=e833]:
+                    - generic [ref=e834]: 2 APIs
+                    - generic [ref=e835]: 2 active
+                - img
+            - heading "Applicable PGMA applicable_pgma Edit module Applicable PGMA 7 APIs 6 active 1 inactive" [level=3] [ref=e837]:
+              - button "Applicable PGMA applicable_pgma Edit module Applicable PGMA 7 APIs 6 active 1 inactive" [ref=e838]:
+                - generic [ref=e839]:
+                  - generic [ref=e840]:
+                    - generic [ref=e841]:
+                      - generic [ref=e842]: Applicable PGMA
+                      - generic [ref=e843]: applicable_pgma
+                    - button "Edit module Applicable PGMA" [ref=e844] [cursor=pointer]:
+                      - img
+                  - generic [ref=e845]:
+                    - generic [ref=e846]: 7 APIs
+                    - generic [ref=e847]: 6 active
+                    - generic [ref=e848]: 1 inactive
+                - img
+            - heading "Projects projects Edit module Projects 4 APIs 4 active" [level=3] [ref=e850]:
+              - button "Projects projects Edit module Projects 4 APIs 4 active" [ref=e851]:
+                - generic [ref=e852]:
+                  - generic [ref=e853]:
+                    - generic [ref=e854]:
+                      - generic [ref=e855]: Projects
+                      - generic [ref=e856]: projects
+                    - button "Edit module Projects" [ref=e857] [cursor=pointer]:
+                      - img
+                  - generic [ref=e858]:
+                    - generic [ref=e859]: 4 APIs
+                    - generic [ref=e860]: 4 active
+                - img
+            - heading "Customers customers Edit module Customers 4 APIs 4 active" [level=3] [ref=e862]:
+              - button "Customers customers Edit module Customers 4 APIs 4 active" [ref=e863]:
+                - generic [ref=e864]:
+                  - generic [ref=e865]:
+                    - generic [ref=e866]:
+                      - generic [ref=e867]: Customers
+                      - generic [ref=e868]: customers
+                    - button "Edit module Customers" [ref=e869] [cursor=pointer]:
+                      - img
+                  - generic [ref=e870]:
+                    - generic [ref=e871]: 4 APIs
+                    - generic [ref=e872]: 4 active
+                - img
+            - heading "PGMA Master pgma_master Edit module PGMA Master 5 APIs 5 active" [level=3] [ref=e874]:
+              - button "PGMA Master pgma_master Edit module PGMA Master 5 APIs 5 active" [ref=e875]:
+                - generic [ref=e876]:
+                  - generic [ref=e877]:
+                    - generic [ref=e878]:
+                      - generic [ref=e879]: PGMA Master
+                      - generic [ref=e880]: pgma_master
+                    - button "Edit module PGMA Master" [ref=e881] [cursor=pointer]:
+                      - img
+                  - generic [ref=e882]:
+                    - generic [ref=e883]: 5 APIs
+                    - generic [ref=e884]: 5 active
+                - img
+            - heading "PG Master pg_master Edit module PG Master 5 APIs 5 active" [level=3] [ref=e886]:
+              - button "PG Master pg_master Edit module PG Master 5 APIs 5 active" [ref=e887]:
+                - generic [ref=e888]:
+                  - generic [ref=e889]:
+                    - generic [ref=e890]:
+                      - generic [ref=e891]: PG Master
+                      - generic [ref=e892]: pg_master
+                    - button "Edit module PG Master" [ref=e893] [cursor=pointer]:
+                      - img
+                  - generic [ref=e894]:
+                    - generic [ref=e895]: 5 APIs
+                    - generic [ref=e896]: 5 active
+                - img
+            - heading "Drawing Sizes drawing_sizes Edit module Drawing Sizes 1 API 1 active" [level=3] [ref=e898]:
+              - button "Drawing Sizes drawing_sizes Edit module Drawing Sizes 1 API 1 active" [ref=e899]:
+                - generic [ref=e900]:
+                  - generic [ref=e901]:
+                    - generic [ref=e902]:
+                      - generic [ref=e903]: Drawing Sizes
+                      - generic [ref=e904]: drawing_sizes
+                    - button "Edit module Drawing Sizes" [ref=e905] [cursor=pointer]:
+                      - img
+                  - generic [ref=e906]:
+                    - generic [ref=e907]: 1 API
+                    - generic [ref=e908]: 1 active
+                - img
+            - heading "Items items Edit module Items 12 APIs 6 active 6 inactive" [level=3] [ref=e910]:
+              - button "Items items Edit module Items 12 APIs 6 active 6 inactive" [ref=e911]:
+                - generic [ref=e912]:
+                  - generic [ref=e913]:
+                    - generic [ref=e914]:
+                      - generic [ref=e915]: Items
+                      - generic [ref=e916]: items
+                    - button "Edit module Items" [ref=e917] [cursor=pointer]:
+                      - img
+                  - generic [ref=e918]:
+                    - generic [ref=e919]: 12 APIs
+                    - generic [ref=e920]: 6 active
+                    - generic [ref=e921]: 6 inactive
+                - img
+            - heading "Item Classes item_classes Edit module Item Classes 1 API 1 active" [level=3] [ref=e923]:
+              - button "Item Classes item_classes Edit module Item Classes 1 API 1 active" [ref=e924]:
+                - generic [ref=e925]:
+                  - generic [ref=e926]:
+                    - generic [ref=e927]:
+                      - generic [ref=e928]: Item Classes
+                      - generic [ref=e929]: item_classes
+                    - button "Edit module Item Classes" [ref=e930] [cursor=pointer]:
+                      - img
+                  - generic [ref=e931]:
+                    - generic [ref=e932]: 1 API
+                    - generic [ref=e933]: 1 active
+                - img
+            - heading "Item Groups item_groups Edit module Item Groups 4 APIs 4 active" [level=3] [ref=e935]:
+              - button "Item Groups item_groups Edit module Item Groups 4 APIs 4 active" [ref=e936]:
+                - generic [ref=e937]:
+                  - generic [ref=e938]:
+                    - generic [ref=e939]:
+                      - generic [ref=e940]: Item Groups
+                      - generic [ref=e941]: item_groups
+                    - button "Edit module Item Groups" [ref=e942] [cursor=pointer]:
+                      - img
+                  - generic [ref=e943]:
+                    - generic [ref=e944]: 4 APIs
+                    - generic [ref=e945]: 4 active
+                - img
+            - heading "Unit of Measurement uom Edit module Unit of Measurement 5 APIs 4 active 1 inactive" [level=3] [ref=e947]:
+              - button "Unit of Measurement uom Edit module Unit of Measurement 5 APIs 4 active 1 inactive" [ref=e948]:
+                - generic [ref=e949]:
+                  - generic [ref=e950]:
+                    - generic [ref=e951]:
+                      - generic [ref=e952]: Unit of Measurement
+                      - generic [ref=e953]: uom
+                    - button "Edit module Unit of Measurement" [ref=e954] [cursor=pointer]:
+                      - img
+                  - generic [ref=e955]:
+                    - generic [ref=e956]: 5 APIs
+                    - generic [ref=e957]: 4 active
+                    - generic [ref=e958]: 1 inactive
+                - img
+            - heading "Material Specifications material_specifications Edit module Material Specifications 5 APIs 5 active" [level=3] [ref=e960]:
+              - button "Material Specifications material_specifications Edit module Material Specifications 5 APIs 5 active" [ref=e961]:
+                - generic [ref=e962]:
+                  - generic [ref=e963]:
+                    - generic [ref=e964]:
+                      - generic [ref=e965]: Material Specifications
+                      - generic [ref=e966]: material_specifications
+                    - button "Edit module Material Specifications" [ref=e967] [cursor=pointer]:
+                      - img
+                  - generic [ref=e968]:
+                    - generic [ref=e969]: 5 APIs
+                    - generic [ref=e970]: 5 active
+                - img
+            - heading "Materials materials Edit module Materials 5 APIs 5 active" [level=3] [ref=e972]:
+              - button "Materials materials Edit module Materials 5 APIs 5 active" [ref=e973]:
+                - generic [ref=e974]:
+                  - generic [ref=e975]:
+                    - generic [ref=e976]:
+                      - generic [ref=e977]: Materials
+                      - generic [ref=e978]: materials
+                    - button "Edit module Materials" [ref=e979] [cursor=pointer]:
+                      - img
+                  - generic [ref=e980]:
+                    - generic [ref=e981]: 5 APIs
+                    - generic [ref=e982]: 5 active
+                - img
+            - heading "Drawing Categories drawing_categories Edit module Drawing Categories 3 APIs 3 active" [level=3] [ref=e984]:
+              - button "Drawing Categories drawing_categories Edit module Drawing Categories 3 APIs 3 active" [ref=e985]:
+                - generic [ref=e986]:
+                  - generic [ref=e987]:
+                    - generic [ref=e988]:
+                      - generic [ref=e989]: Drawing Categories
+                      - generic [ref=e990]: drawing_categories
+                    - button "Edit module Drawing Categories" [ref=e991] [cursor=pointer]:
+                      - img
+                  - generic [ref=e992]:
+                    - generic [ref=e993]: 3 APIs
+                    - generic [ref=e994]: 3 active
+                - img
+            - heading "Employees employees Edit module Employees 1 API 1 active" [level=3] [ref=e996]:
+              - button "Employees employees Edit module Employees 1 API 1 active" [ref=e997]:
+                - generic [ref=e998]:
+                  - generic [ref=e999]:
+                    - generic [ref=e1000]:
+                      - generic [ref=e1001]: Employees
+                      - generic [ref=e1002]: employees
+                    - button "Edit module Employees" [ref=e1003] [cursor=pointer]:
+                      - img
+                  - generic [ref=e1004]:
+                    - generic [ref=e1005]: 1 API
+                    - generic [ref=e1006]: 1 active
+                - img

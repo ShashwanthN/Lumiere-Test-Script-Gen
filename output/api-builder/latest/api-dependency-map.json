@@ -1,0 +1,2514 @@
+{
+  "generatedAt": "2026-06-15T10:23:18.967Z",
+  "totalActiveApis": 122,
+  "tiers": [
+    {
+      "tier": 1,
+      "description": "No dependencies — create these first",
+      "apis": [
+        {
+          "name": "create_uom",
+          "method": "POST",
+          "module": "Unit of Measurement",
+          "path": "/uom/create",
+          "creates": [
+            "uom"
+          ],
+          "dependsOn": []
+        },
+        {
+          "name": "create_item_groups",
+          "method": "POST",
+          "module": "Item Groups",
+          "path": "/item-groups/create",
+          "creates": [
+            "item_groups"
+          ],
+          "dependsOn": []
+        },
+        {
+          "name": "create_material",
+          "method": "POST",
+          "module": "Materials",
+          "path": "/materials/create",
+          "creates": [
+            "materials"
+          ],
+          "dependsOn": []
+        },
+        {
+          "name": "create_material_specification",
+          "method": "POST",
+          "module": "Material Specifications",
+          "path": "/material-specifications/create",
+          "creates": [
+            "material_specifications"
+          ],
+          "dependsOn": []
+        },
+        {
+          "name": "get_item_classes",
+          "method": "GET",
+          "module": "Item Classes",
+          "path": "/item-classes",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "get_drawing_category",
+          "method": "GET",
+          "module": "Drawing Categories",
+          "path": "/drawing-categories",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "create_customer",
+          "method": "POST",
+          "module": "Customers",
+          "path": "/customers/create",
+          "creates": [
+            "customers"
+          ],
+          "dependsOn": []
+        },
+        {
+          "name": "delete_material_specifications",
+          "method": "DELETE",
+          "module": "Material Specifications",
+          "path": "/material-specifications/{spec_id}/delete",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "update_material_specifications",
+          "method": "PUT",
+          "module": "Material Specifications",
+          "path": "/material-specifications/{spec_id}/update",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "update_drawing_category",
+          "method": "PUT",
+          "module": "Drawing Categories",
+          "path": "/drawing-categories/{dr_cat_id}/update",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "delete_drawing_category",
+          "method": "DELETE",
+          "module": "Drawing Categories",
+          "path": "/drawing-categories/{dr_cat_id}/delete",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "get_drawing_sizes",
+          "method": "GET",
+          "module": "Drawing Sizes",
+          "path": "/drawing-sizes",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "create_user",
+          "method": "POST",
+          "module": "Users",
+          "path": "/users",
+          "creates": [
+            "users"
+          ],
+          "dependsOn": []
+        },
+        {
+          "name": "create_products",
+          "method": "POST",
+          "module": "Products",
+          "path": "/products",
+          "creates": [
+            "products"
+          ],
+          "dependsOn": []
+        },
+        {
+          "name": "create_pg_master",
+          "method": "POST",
+          "module": "PG Master",
+          "path": "/pg_master/create",
+          "creates": [
+            "pg_master"
+          ],
+          "dependsOn": []
+        },
+        {
+          "name": "delete_raw_material_indent_list",
+          "method": "DELETE",
+          "module": "Raw material indent",
+          "path": "/raw-material-indent-list/{id}",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "get_pgma_category_master",
+          "method": "GET",
+          "module": "PGMA Category Master",
+          "path": "/pgma_category_master",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "get_supply_conditions",
+          "method": "GET",
+          "module": "Supply Conditions",
+          "path": "/supply_conditions",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "delete_items",
+          "method": "DELETE",
+          "module": "Items",
+          "path": "/items/{item_id}/delete",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "get_emp_test",
+          "method": "GET",
+          "module": "Users",
+          "path": "/emp-users",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "adeosxlumiere_create_bill_of_material",
+          "method": "POST",
+          "module": "adeos",
+          "path": "/adeos",
+          "creates": [],
+          "dependsOn": []
+        },
+        {
+          "name": "adeosxlumiere_get_bill_of_materials",
+          "method": "GET",
+          "module": "adeos",
+          "path": "/get-extracted-data",
+          "creates": [],
+          "dependsOn": []
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "description": "Depends on previous 1 tier(s)",
+      "apis": [
+        {
+          "name": "get_items_testing",
+          "method": "GET",
+          "module": "Items",
+          "path": "/testing",
+          "creates": [],
+          "dependsOn": [
+            "create_uom",
+            "create_item_groups",
+            "create_material",
+            "create_material_specification"
+          ]
+        },
+        {
+          "name": "get_material_specifications",
+          "method": "GET",
+          "module": "Material Specifications",
+          "path": "/material-specifications",
+          "creates": [],
+          "dependsOn": [
+            "create_material_specification"
+          ]
+        },
+        {
+          "name": "get_uom",
+          "method": "GET",
+          "module": "Unit of Measurement",
+          "path": "/uom",
+          "creates": [],
+          "dependsOn": [
+            "create_uom"
+          ]
+        },
+        {
+          "name": "delete_customer",
+          "method": "DELETE",
+          "module": "Customers",
+          "path": "/customers/{customer_id}/delete",
+          "creates": [],
+          "dependsOn": [
+            "create_customer"
+          ]
+        },
+        {
+          "name": "update_materials",
+          "method": "PUT",
+          "module": "Materials",
+          "path": "/materials/{material_id}/update",
+          "creates": [],
+          "dependsOn": [
+            "create_material"
+          ]
+        },
+        {
+          "name": "get_materials_id",
+          "method": "GET",
+          "module": "Materials",
+          "path": "/materials/{material_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_material"
+          ]
+        },
+        {
+          "name": "get_material_specifications_id",
+          "method": "GET",
+          "module": "Material Specifications",
+          "path": "/material-specifications/{material_spec_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_material_specification"
+          ]
+        },
+        {
+          "name": "delete_item_groups",
+          "method": "DELETE",
+          "module": "Item Groups",
+          "path": "/item-groups/{item_group_id}/delete",
+          "creates": [],
+          "dependsOn": [
+            "create_item_groups"
+          ]
+        },
+        {
+          "name": "get_employees",
+          "method": "GET",
+          "module": "Employees",
+          "path": "/employees",
+          "creates": [],
+          "dependsOn": [
+            "create_user"
+          ]
+        },
+        {
+          "name": "create_projects",
+          "method": "POST",
+          "module": "Projects",
+          "path": "/projects/create",
+          "creates": [
+            "projects"
+          ],
+          "dependsOn": [
+            "create_customer"
+          ]
+        },
+        {
+          "name": "create_pgma_master",
+          "method": "POST",
+          "module": "PGMA Master",
+          "path": "/pgma_master/create",
+          "creates": [
+            "pgma_master"
+          ],
+          "dependsOn": [
+            "create_pg_master"
+          ]
+        },
+        {
+          "name": "create_items",
+          "method": "POST",
+          "module": "Items",
+          "path": "/items/create",
+          "creates": [
+            "items"
+          ],
+          "dependsOn": [
+            "create_uom",
+            "create_item_groups",
+            "create_material",
+            "create_material_specification"
+          ]
+        },
+        {
+          "name": "get_products",
+          "method": "GET",
+          "module": "Products",
+          "path": "/products",
+          "creates": [],
+          "dependsOn": [
+            "create_products",
+            "create_user"
+          ]
+        },
+        {
+          "name": "get_customer",
+          "method": "GET",
+          "module": "Customers",
+          "path": "/customers",
+          "creates": [],
+          "dependsOn": [
+            "create_customer"
+          ]
+        },
+        {
+          "name": "update_pg_master",
+          "method": "PUT",
+          "module": "PG Master",
+          "path": "/pg_master/{pg_master_id}/update",
+          "creates": [],
+          "dependsOn": [
+            "create_pg_master"
+          ]
+        },
+        {
+          "name": "get_last_item_serial_by_group",
+          "method": "GET",
+          "module": "Items",
+          "path": "/items/last-serial/{item_group_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_item_groups"
+          ]
+        },
+        {
+          "name": "delete_materials",
+          "method": "DELETE",
+          "module": "Materials",
+          "path": "/materials/{material_id}/delete",
+          "creates": [],
+          "dependsOn": [
+            "create_material"
+          ]
+        },
+        {
+          "name": "update_uom",
+          "method": "PUT",
+          "module": "Unit of Measurement",
+          "path": "/uom/{uom_id}/update",
+          "creates": [],
+          "dependsOn": [
+            "create_uom"
+          ]
+        },
+        {
+          "name": "delete_uom",
+          "method": "DELETE",
+          "module": "Unit of Measurement",
+          "path": "/uom/{uom_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_uom"
+          ]
+        },
+        {
+          "name": "delete_pg_master",
+          "method": "DELETE",
+          "module": "PG Master",
+          "path": "/pg_master/{pg_master_id}/delete",
+          "creates": [],
+          "dependsOn": [
+            "create_pg_master"
+          ]
+        },
+        {
+          "name": "update_customer",
+          "method": "PUT",
+          "module": "Customers",
+          "path": "/customers/{customer_id}/update",
+          "creates": [],
+          "dependsOn": [
+            "create_customer"
+          ]
+        },
+        {
+          "name": "update_items",
+          "method": "PUT",
+          "module": "Items",
+          "path": "/items/{item_id}/update",
+          "creates": [],
+          "dependsOn": [
+            "create_uom",
+            "create_item_groups",
+            "create_material",
+            "create_material_specification"
+          ]
+        },
+        {
+          "name": "get_item_groups",
+          "method": "GET",
+          "module": "Item Groups",
+          "path": "/item-groups",
+          "creates": [],
+          "dependsOn": [
+            "create_item_groups"
+          ]
+        },
+        {
+          "name": "get_pg_master",
+          "method": "GET",
+          "module": "PG Master",
+          "path": "/pg_master",
+          "creates": [],
+          "dependsOn": [
+            "create_pg_master"
+          ]
+        },
+        {
+          "name": "get_list_of_ma_code_by_pg_code",
+          "method": "GET",
+          "module": "Applicable PGMA",
+          "path": "/pgma-master/{pg_master_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_pg_master"
+          ]
+        },
+        {
+          "name": "get_materials",
+          "method": "GET",
+          "module": "Materials",
+          "path": "/materials",
+          "creates": [],
+          "dependsOn": [
+            "create_material"
+          ]
+        },
+        {
+          "name": "get_items",
+          "method": "GET",
+          "module": "Items",
+          "path": "/items",
+          "creates": [],
+          "dependsOn": [
+            "create_uom",
+            "create_item_groups",
+            "create_material",
+            "create_material_specification"
+          ]
+        },
+        {
+          "name": "update_item_groups",
+          "method": "PUT",
+          "module": "Item Groups",
+          "path": "/item-groups/{item_group_id}/update",
+          "creates": [],
+          "dependsOn": [
+            "create_item_groups"
+          ]
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "description": "Depends on previous 2 tier(s)",
+      "apis": [
+        {
+          "name": "get_last_drawing_by_project_id",
+          "method": "GET",
+          "module": "Drawings",
+          "path": "/drawings/project/{project_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_products",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_user"
+          ]
+        },
+        {
+          "name": "create_drawing",
+          "method": "POST",
+          "module": "Drawings",
+          "path": "/drawings",
+          "creates": [
+            "drawings"
+          ],
+          "dependsOn": [
+            "create_projects",
+            "create_products",
+            "create_pgma_master"
+          ]
+        },
+        {
+          "name": "create_applicable_pgma",
+          "method": "POST",
+          "module": "Applicable PGMA",
+          "path": "/applicable-pgma",
+          "creates": [
+            "applicable_pgma",
+            "applicable_pgma_list"
+          ],
+          "dependsOn": [
+            "create_projects",
+            "create_pgma_master"
+          ]
+        },
+        {
+          "name": "delete_projects",
+          "method": "DELETE",
+          "module": "Projects",
+          "path": "/projects/{project_id}/delete",
+          "creates": [],
+          "dependsOn": [
+            "create_projects"
+          ]
+        },
+        {
+          "name": "update_projects",
+          "method": "PUT",
+          "module": "Projects",
+          "path": "/projects/{project_id}/update",
+          "creates": [],
+          "dependsOn": [
+            "create_customer",
+            "create_projects"
+          ]
+        },
+        {
+          "name": "delete_pgma_master",
+          "method": "DELETE",
+          "module": "PGMA Master",
+          "path": "/pgma_master/{pgma_master_id}/delete",
+          "creates": [],
+          "dependsOn": [
+            "create_pgma_master"
+          ]
+        },
+        {
+          "name": "update_pgma_master",
+          "method": "PUT",
+          "module": "PGMA Master",
+          "path": "/pgma_master/{pgma_master_id}/update",
+          "creates": [],
+          "dependsOn": [
+            "create_pg_master",
+            "create_pgma_master"
+          ]
+        },
+        {
+          "name": "get_projects",
+          "method": "GET",
+          "module": "Projects",
+          "path": "/projects",
+          "creates": [],
+          "dependsOn": [
+            "create_customer",
+            "create_projects"
+          ]
+        },
+        {
+          "name": "create_bought_out_component",
+          "method": "POST",
+          "module": "Bought Out Components",
+          "path": "/bought-out-components",
+          "creates": [
+            "bought_out_components",
+            "boc_items"
+          ],
+          "dependsOn": [
+            "create_uom",
+            "create_customer",
+            "create_projects",
+            "create_pgma_master"
+          ]
+        },
+        {
+          "name": "get_pgma_master",
+          "method": "GET",
+          "module": "PGMA Master",
+          "path": "/pgma-master",
+          "creates": [],
+          "dependsOn": [
+            "create_pg_master",
+            "create_pgma_master"
+          ]
+        },
+        {
+          "name": "list_rmi_v2",
+          "method": "GET",
+          "module": "Raw material indent",
+          "path": "/raw-material-indent/v2",
+          "creates": [],
+          "dependsOn": [
+            "create_customer",
+            "create_projects",
+            "create_user"
+          ]
+        },
+        {
+          "name": "get_last_rmi_serial_by_project",
+          "method": "GET",
+          "module": "Raw material indent",
+          "path": "/raw-material-indent/last-serial/{project_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects"
+          ]
+        },
+        {
+          "name": "get_last_boc_serial_by_project",
+          "method": "GET",
+          "module": "Bought Out Components",
+          "path": "/bought-out-components/last-serial/{project_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects"
+          ]
+        },
+        {
+          "name": "get_drawings_by_project_id",
+          "method": "GET",
+          "module": "Drawings",
+          "path": "/drawings/get-drawings/{project_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_products",
+            "create_pg_master",
+            "create_pgma_master"
+          ]
+        },
+        {
+          "name": "get_bom_last_serial",
+          "method": "GET",
+          "module": "Bill of materials",
+          "path": "/bom/last-serial/{project_id}/{pgma_master_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pgma_master"
+          ]
+        },
+        {
+          "name": "get_last_drawing_serial_by_project",
+          "method": "GET",
+          "module": "Drawings",
+          "path": "/drawings/last-serial/{project_id}/{pgma_master_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pgma_master"
+          ]
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "description": "Depends on previous 3 tier(s)",
+      "apis": [
+        {
+          "name": "create_bom_v2",
+          "method": "POST",
+          "module": "Bill of materials",
+          "path": "/bom/v2/create",
+          "creates": [
+            "bill_of_materials",
+            "bom_list_variants",
+            "bom_list",
+            "bom_list"
+          ],
+          "dependsOn": [
+            "create_projects",
+            "create_pgma_master",
+            "create_drawing"
+          ]
+        },
+        {
+          "name": "get_applicable_pgma",
+          "method": "GET",
+          "module": "Applicable PGMA",
+          "path": "/applicable-pgma",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_applicable_pgma",
+            "create_user"
+          ]
+        },
+        {
+          "name": "get_pg_master_by_project_id",
+          "method": "GET",
+          "module": "PG Master",
+          "path": "/pg-master/project/{project_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_applicable_pgma"
+          ]
+        },
+        {
+          "name": "get_raw_material_indent_by_project_id",
+          "method": "GET",
+          "module": "Raw material indent",
+          "path": "/{project_id}/raw_material_indents/",
+          "creates": [],
+          "dependsOn": [
+            "create_customer",
+            "create_projects",
+            "create_pgma_master",
+            "create_applicable_pgma",
+            "create_user"
+          ]
+        },
+        {
+          "name": "get_applicable_pgma_list",
+          "method": "GET",
+          "module": "Raw material indent",
+          "path": "/applicable-pgma-list",
+          "creates": [],
+          "dependsOn": [
+            "create_pgma_master",
+            "create_applicable_pgma"
+          ]
+        },
+        {
+          "name": "delete_bought_out_component",
+          "method": "DELETE",
+          "module": "Bought Out Components",
+          "path": "/bought-out-components/{boc_id}/delete",
+          "creates": [],
+          "dependsOn": [
+            "create_bought_out_component"
+          ]
+        },
+        {
+          "name": "get_applicable_pgma_by_project_id",
+          "method": "GET",
+          "module": "Applicable PGMA",
+          "path": "/applicable-pgma/project/{project_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_applicable_pgma",
+            "create_user"
+          ]
+        },
+        {
+          "name": "get_applicable_pgma_list_by_project",
+          "method": "GET",
+          "module": "Applicable PGMA",
+          "path": "/applicable-pgma-list/project/{project_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_applicable_pgma"
+          ]
+        },
+        {
+          "name": "get_pgma_master_by_project_id",
+          "method": "GET",
+          "module": "PGMA Master",
+          "path": "/pgma-master/project/{project_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_applicable_pgma"
+          ]
+        },
+        {
+          "name": "get_drawings_pg_list",
+          "method": "GET",
+          "module": "Drawings",
+          "path": "/drawings/project/{project_id}/pg-list",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_applicable_pgma"
+          ]
+        },
+        {
+          "name": "get_bought_out_components_export",
+          "method": "GET",
+          "module": "Bought Out Components",
+          "path": "/bought-out-components-export/{boc_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_uom",
+            "create_customer",
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_bought_out_component",
+            "create_applicable_pgma",
+            "create_items"
+          ]
+        },
+        {
+          "name": "get_bought_out_component_by_id",
+          "method": "GET",
+          "module": "Bought Out Components",
+          "path": "/bought-out-components/{boc_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_uom",
+            "create_customer",
+            "create_projects",
+            "create_pgma_master",
+            "create_bought_out_component",
+            "create_user",
+            "create_items"
+          ]
+        },
+        {
+          "name": "get_pgma_by_project_id",
+          "method": "GET",
+          "module": "Applicable PGMA",
+          "path": "/pgma/project/{project_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_applicable_pgma"
+          ]
+        },
+        {
+          "name": "get_drawings_ma_list",
+          "method": "GET",
+          "module": "Drawings",
+          "path": "/drawings/project/{project_id}/pg/{pg_code}/ma-list",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_applicable_pgma"
+          ]
+        },
+        {
+          "name": "get_bought_out_components",
+          "method": "GET",
+          "module": "Bought Out Components",
+          "path": "/bought-out-components",
+          "creates": [],
+          "dependsOn": [
+            "create_customer",
+            "create_projects",
+            "create_pgma_master",
+            "create_bought_out_component",
+            "create_user"
+          ]
+        },
+        {
+          "name": "update_bought_out_component",
+          "method": "PUT",
+          "module": "Bought Out Components",
+          "path": "/bought-out-components/{boc_id}/update",
+          "creates": [
+            "boc_items"
+          ],
+          "dependsOn": [
+            "create_uom",
+            "create_customer",
+            "create_projects",
+            "create_pgma_master",
+            "create_bought_out_component"
+          ]
+        },
+        {
+          "name": "view_drawing",
+          "method": "GET",
+          "module": "Drawings",
+          "path": "/drawings/{drawing_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_products",
+            "create_pgma_master",
+            "create_drawing"
+          ]
+        },
+        {
+          "name": "get_drawings",
+          "method": "GET",
+          "module": "Drawings",
+          "path": "/drawings",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_products",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_drawing",
+            "create_user"
+          ]
+        },
+        {
+          "name": "update_drawing",
+          "method": "PUT",
+          "module": "Drawings",
+          "path": "/drawings/{drawing_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_drawing"
+          ]
+        },
+        {
+          "name": "get_release_no_by_drawing_id",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/pms/last-release/{drawing_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_drawing"
+          ]
+        },
+        {
+          "name": "list_bom_v2",
+          "method": "GET",
+          "module": "Bill of materials",
+          "path": "/bom/v2",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pgma_master",
+            "create_drawing",
+            "create_user"
+          ]
+        },
+        {
+          "name": "get_pgma_by_drawing_id",
+          "method": "GET",
+          "module": "Drawings",
+          "path": "/drawings/get-pgma/{drawing_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_drawing"
+          ]
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "description": "Depends on previous 4 tier(s)",
+      "apis": [
+        {
+          "name": "delete_bom_v2",
+          "method": "DELETE",
+          "module": "Bill of materials",
+          "path": "/bom/v2/{bom_id}/delete",
+          "creates": [],
+          "dependsOn": [
+            "create_bom_v2"
+          ]
+        },
+        {
+          "name": "create_product_manufacturing_schedule",
+          "method": "POST",
+          "module": "Product Manufacturing Schedule",
+          "path": "/product-manufacturing-schedule",
+          "creates": [
+            "product_manufacturing_schedule",
+            "pms_item_groups",
+            "pms_items",
+            "pms_items",
+            "pms_items",
+            "bom_list",
+            "bom_list"
+          ],
+          "dependsOn": [
+            "create_item_groups",
+            "create_customer",
+            "create_projects",
+            "create_pgma_master",
+            "create_drawing",
+            "create_bom_v2"
+          ]
+        },
+        {
+          "name": "update_bom_v2",
+          "method": "PUT",
+          "module": "Bill of materials",
+          "path": "/bom/v2/{bom_id}/update",
+          "creates": [
+            "bom_list_variants",
+            "pms_items",
+            "bom_list",
+            "bom_list",
+            "pms_items",
+            "bom_list",
+            "bom_list"
+          ],
+          "dependsOn": [
+            "create_projects",
+            "create_pgma_master",
+            "create_drawing",
+            "create_bom_v2"
+          ]
+        },
+        {
+          "name": "get_bom_v2",
+          "method": "GET",
+          "module": "Bill of materials",
+          "path": "/bom/v2/{bom_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_projects",
+            "create_pgma_master",
+            "create_drawing",
+            "create_bom_v2",
+            "create_items"
+          ]
+        },
+        {
+          "name": "get_pms_bom_items_by_drawing",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/pms/bom-items/{drawing_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_drawing",
+            "create_bom_v2",
+            "create_items"
+          ]
+        },
+        {
+          "name": "get_drawing_items_for_pms",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/pms/drawing-items/{drawing_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_drawing",
+            "create_bom_v2",
+            "create_items"
+          ]
+        }
+      ]
+    },
+    {
+      "tier": 6,
+      "description": "Depends on previous 5 tier(s)",
+      "apis": [
+        {
+          "name": "delete_product_manufacturing_schedule",
+          "method": "DELETE",
+          "module": "Product Manufacturing Schedule",
+          "path": "/product-manufacturing-schedule/{pms_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_bom_v2",
+            "create_product_manufacturing_schedule"
+          ]
+        },
+        {
+          "name": "list_product_manufacturing_schedule",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/product-manufacturing-schedule",
+          "creates": [],
+          "dependsOn": [
+            "create_customer",
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_drawing",
+            "create_product_manufacturing_schedule",
+            "create_user"
+          ]
+        },
+        {
+          "name": "update_product_manufacturing_schedule",
+          "method": "PUT",
+          "module": "Product Manufacturing Schedule",
+          "path": "/product-manufacturing-schedule/{pms_id}",
+          "creates": [
+            "pms_item_groups",
+            "pms_items",
+            "pms_items",
+            "pms_items",
+            "bom_list",
+            "bom_list"
+          ],
+          "dependsOn": [
+            "create_item_groups",
+            "create_customer",
+            "create_projects",
+            "create_pgma_master",
+            "create_drawing",
+            "create_bom_v2",
+            "create_product_manufacturing_schedule"
+          ]
+        },
+        {
+          "name": "get_pms_drawing_index",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/pms/index-sheet/{pms_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_customer",
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_drawing",
+            "create_product_manufacturing_schedule"
+          ]
+        },
+        {
+          "name": "get_pms_drawing_index_items",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/pms-index-items/{pms_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_drawing",
+            "create_product_manufacturing_schedule"
+          ]
+        },
+        {
+          "name": "get_shipping_list_items",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/pms-shipping-items/{pms_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_drawing",
+            "create_product_manufacturing_schedule"
+          ]
+        },
+        {
+          "name": "get_bom_for_export",
+          "method": "GET",
+          "module": "Bill of materials",
+          "path": "/bill-of-materials/{bom_id}/export-data",
+          "creates": [],
+          "dependsOn": [
+            "create_item_groups",
+            "create_material_specification",
+            "create_drawing",
+            "create_bom_v2",
+            "create_items",
+            "update_bom_v2"
+          ]
+        }
+      ]
+    },
+    {
+      "tier": 7,
+      "description": "Depends on previous 6 tier(s)",
+      "apis": [
+        {
+          "name": "get_pdf_product_manufacturing_schedule",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/product-manufacturing-schedule/pdf/{pms_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_item_groups",
+            "create_customer",
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_drawing",
+            "create_bom_v2",
+            "create_product_manufacturing_schedule",
+            "create_user",
+            "update_bom_v2",
+            "update_product_manufacturing_schedule",
+            "create_items"
+          ]
+        },
+        {
+          "name": "get_pms_shipping_list",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/pms/shipping-list/{pms_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_item_groups",
+            "create_customer",
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_drawing",
+            "create_bom_v2",
+            "create_product_manufacturing_schedule",
+            "update_bom_v2",
+            "update_product_manufacturing_schedule",
+            "create_items"
+          ]
+        },
+        {
+          "name": "get_detail_product_manufacturing_schedule",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/product-manufacturing-schedule/{pms_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_item_groups",
+            "create_customer",
+            "create_projects",
+            "create_pg_master",
+            "create_pgma_master",
+            "create_drawing",
+            "create_bom_v2",
+            "create_product_manufacturing_schedule",
+            "create_user",
+            "update_bom_v2",
+            "update_product_manufacturing_schedule",
+            "create_items"
+          ]
+        },
+        {
+          "name": "get_pms_items_by_pms_id",
+          "method": "GET",
+          "module": "Product Manufacturing Schedule",
+          "path": "/pms-items/{pms_id}",
+          "creates": [],
+          "dependsOn": [
+            "create_item_groups",
+            "create_drawing",
+            "create_bom_v2",
+            "create_product_manufacturing_schedule",
+            "update_bom_v2",
+            "update_product_manufacturing_schedule",
+            "create_items"
+          ]
+        }
+      ]
+    }
+  ],
+  "executionOrder": [
+    "create_uom",
+    "create_item_groups",
+    "create_material",
+    "create_material_specification",
+    "get_items_testing",
+    "get_item_classes",
+    "get_material_specifications",
+    "get_uom",
+    "get_drawing_category",
+    "create_customer",
+    "delete_customer",
+    "update_materials",
+    "get_materials_id",
+    "get_material_specifications_id",
+    "delete_material_specifications",
+    "update_material_specifications",
+    "update_drawing_category",
+    "delete_drawing_category",
+    "get_drawing_sizes",
+    "delete_item_groups",
+    "create_user",
+    "get_employees",
+    "create_projects",
+    "create_products",
+    "create_pg_master",
+    "create_pgma_master",
+    "get_last_drawing_by_project_id",
+    "create_items",
+    "get_products",
+    "create_drawing",
+    "create_bom_v2",
+    "delete_bom_v2",
+    "create_applicable_pgma",
+    "get_applicable_pgma",
+    "get_customer",
+    "delete_projects",
+    "get_pg_master_by_project_id",
+    "update_pg_master",
+    "update_projects",
+    "get_last_item_serial_by_group",
+    "delete_materials",
+    "update_uom",
+    "delete_uom",
+    "delete_pg_master",
+    "delete_raw_material_indent_list",
+    "delete_pgma_master",
+    "get_pgma_category_master",
+    "get_supply_conditions",
+    "delete_items",
+    "update_customer",
+    "update_pgma_master",
+    "update_items",
+    "get_projects",
+    "update_rmi_v2",
+    "create_rmi_v2",
+    "create_raw_material_indent",
+    "delete_raw_material_indent",
+    "get_raw_material_indent_by_project_id",
+    "get_raw_material_indent_list_items",
+    "get_raw_material_indent",
+    "create_raw_material_indent_list_item",
+    "get_applicable_pgma_list",
+    "get_raw_material_indent_by_id",
+    "create_bought_out_component",
+    "delete_bought_out_component",
+    "get_item_groups",
+    "get_pgma_master",
+    "get_rmi_list_items_with_details",
+    "delete_rmi_v2",
+    "list_rmi_v2",
+    "get_raw_material_indents",
+    "get_emp_test",
+    "get_applicable_pgma_by_project_id",
+    "get_applicable_pgma_list_by_project",
+    "get_pgma_master_by_project_id",
+    "get_pg_master",
+    "update_raw_material_indent",
+    "get_list_of_ma_code_by_pg_code",
+    "get_last_rmi_serial_by_project",
+    "get_drawings_pg_list",
+    "get_rmi_v2_edit",
+    "get_raw_material_indent_list",
+    "get_bought_out_components_export",
+    "get_bought_out_component_by_id",
+    "get_raw_material_indent_for_export",
+    "get_last_boc_serial_by_project",
+    "get_pgma_by_project_id",
+    "get_drawings_ma_list",
+    "get_bought_out_components",
+    "get_materials",
+    "update_bought_out_component",
+    "get_rmi_items_v2",
+    "get_items",
+    "update_item_groups",
+    "get_rmi_v2",
+    "view_drawing",
+    "get_drawings",
+    "create_product_manufacturing_schedule",
+    "delete_product_manufacturing_schedule",
+    "update_bom_v2",
+    "update_drawing",
+    "get_bom_v2",
+    "list_product_manufacturing_schedule",
+    "get_drawings_by_project_id",
+    "update_product_manufacturing_schedule",
+    "get_pms_bom_items_by_drawing",
+    "get_pdf_product_manufacturing_schedule",
+    "get_drawing_items_for_pms",
+    "get_pms_shipping_list",
+    "get_pms_drawing_index",
+    "get_pms_drawing_index_items",
+    "get_shipping_list_items",
+    "get_bom_last_serial",
+    "get_release_no_by_drawing_id",
+    "get_detail_product_manufacturing_schedule",
+    "adeosxlumiere_create_bill_of_material",
+    "adeosxlumiere_get_bill_of_materials",
+    "get_bom_for_export",
+    "get_last_drawing_serial_by_project",
+    "list_bom_v2",
+    "get_pgma_by_drawing_id",
+    "get_pms_items_by_pms_id"
+  ],
+  "dependencyMap": {
+    "get_items_testing": [
+      "create_uom",
+      "create_item_groups",
+      "create_material",
+      "create_material_specification"
+    ],
+    "get_item_classes": [],
+    "get_material_specifications": [
+      "create_material_specification"
+    ],
+    "get_uom": [
+      "create_uom"
+    ],
+    "get_drawing_category": [],
+    "delete_customer": [
+      "create_customer"
+    ],
+    "create_uom": [],
+    "update_materials": [
+      "create_material"
+    ],
+    "get_materials_id": [
+      "create_material"
+    ],
+    "get_material_specifications_id": [
+      "create_material_specification"
+    ],
+    "delete_material_specifications": [],
+    "update_material_specifications": [],
+    "update_drawing_category": [],
+    "delete_drawing_category": [],
+    "get_drawing_sizes": [],
+    "delete_item_groups": [
+      "create_item_groups"
+    ],
+    "get_employees": [
+      "create_user"
+    ],
+    "get_last_drawing_by_project_id": [
+      "create_projects",
+      "create_products",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_user"
+    ],
+    "create_pg_master": [],
+    "create_items": [
+      "create_uom",
+      "create_item_groups",
+      "create_material",
+      "create_material_specification"
+    ],
+    "create_projects": [
+      "create_customer"
+    ],
+    "create_products": [],
+    "get_products": [
+      "create_products",
+      "create_user"
+    ],
+    "delete_bom_v2": [
+      "create_bom_v2"
+    ],
+    "get_applicable_pgma": [
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_user"
+    ],
+    "get_customer": [
+      "create_customer"
+    ],
+    "delete_projects": [
+      "create_projects"
+    ],
+    "get_pg_master_by_project_id": [
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma"
+    ],
+    "update_pg_master": [
+      "create_pg_master"
+    ],
+    "update_projects": [
+      "create_customer",
+      "create_projects"
+    ],
+    "create_pgma_master": [
+      "create_pg_master"
+    ],
+    "get_last_item_serial_by_group": [
+      "create_item_groups"
+    ],
+    "delete_materials": [
+      "create_material"
+    ],
+    "create_material_specification": [],
+    "update_uom": [
+      "create_uom"
+    ],
+    "delete_uom": [
+      "create_uom"
+    ],
+    "delete_pg_master": [
+      "create_pg_master"
+    ],
+    "delete_raw_material_indent_list": [],
+    "create_material": [],
+    "delete_pgma_master": [
+      "create_pgma_master"
+    ],
+    "get_pgma_category_master": [],
+    "get_supply_conditions": [],
+    "delete_items": [],
+    "update_customer": [
+      "create_customer"
+    ],
+    "update_pgma_master": [
+      "create_pg_master",
+      "create_pgma_master"
+    ],
+    "update_items": [
+      "create_uom",
+      "create_item_groups",
+      "create_material",
+      "create_material_specification"
+    ],
+    "create_user": [],
+    "create_customer": [],
+    "get_projects": [
+      "create_customer",
+      "create_projects"
+    ],
+    "delete_raw_material_indent": [
+      "create_raw_material_indent",
+      "create_rmi_v2"
+    ],
+    "get_raw_material_indent_by_project_id": [
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_user"
+    ],
+    "get_raw_material_indent_list_items": [
+      "create_uom",
+      "create_material",
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_raw_material_indent",
+      "create_rmi_v2",
+      "create_items"
+    ],
+    "get_raw_material_indent": [
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "create_rmi_v2",
+      "create_user"
+    ],
+    "create_raw_material_indent_list_item": [
+      "create_raw_material_indent",
+      "create_rmi_v2"
+    ],
+    "get_applicable_pgma_list": [
+      "create_pgma_master",
+      "create_applicable_pgma"
+    ],
+    "get_raw_material_indent_by_id": [
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "create_rmi_v2"
+    ],
+    "delete_bought_out_component": [
+      "create_bought_out_component"
+    ],
+    "get_item_groups": [
+      "create_item_groups"
+    ],
+    "get_pgma_master": [
+      "create_pg_master",
+      "create_pgma_master"
+    ],
+    "create_raw_material_indent": [
+      "create_customer",
+      "create_projects",
+      "create_applicable_pgma",
+      "create_rmi_v2"
+    ],
+    "get_rmi_list_items_with_details": [
+      "create_raw_material_indent",
+      "create_rmi_v2",
+      "create_items"
+    ],
+    "delete_rmi_v2": [
+      "create_raw_material_indent",
+      "create_rmi_v2"
+    ],
+    "list_rmi_v2": [
+      "create_customer",
+      "create_projects",
+      "create_user"
+    ],
+    "get_raw_material_indents": [
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "create_rmi_v2",
+      "create_user"
+    ],
+    "get_emp_test": [],
+    "get_applicable_pgma_by_project_id": [
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_user"
+    ],
+    "get_applicable_pgma_list_by_project": [
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma"
+    ],
+    "get_pgma_master_by_project_id": [
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma"
+    ],
+    "get_pg_master": [
+      "create_pg_master"
+    ],
+    "update_raw_material_indent": [
+      "create_customer",
+      "create_projects",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "create_rmi_v2"
+    ],
+    "get_list_of_ma_code_by_pg_code": [
+      "create_pg_master"
+    ],
+    "get_last_rmi_serial_by_project": [
+      "create_projects"
+    ],
+    "get_drawings_pg_list": [
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma"
+    ],
+    "get_rmi_v2_edit": [
+      "create_uom",
+      "create_customer",
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "create_rmi_v2",
+      "update_rmi_v2",
+      "create_items"
+    ],
+    "get_raw_material_indent_list": [
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "create_rmi_v2",
+      "create_user",
+      "create_items"
+    ],
+    "create_applicable_pgma": [
+      "create_projects",
+      "create_pgma_master"
+    ],
+    "get_bought_out_components_export": [
+      "create_uom",
+      "create_customer",
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_bought_out_component",
+      "create_applicable_pgma",
+      "create_items"
+    ],
+    "get_bought_out_component_by_id": [
+      "create_uom",
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_bought_out_component",
+      "create_user",
+      "create_items"
+    ],
+    "get_raw_material_indent_for_export": [
+      "create_customer",
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "create_rmi_v2",
+      "update_rmi_v2",
+      "create_items"
+    ],
+    "get_last_boc_serial_by_project": [
+      "create_projects"
+    ],
+    "get_pgma_by_project_id": [
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma"
+    ],
+    "create_bought_out_component": [
+      "create_uom",
+      "create_customer",
+      "create_projects",
+      "create_pgma_master"
+    ],
+    "get_drawings_ma_list": [
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_applicable_pgma"
+    ],
+    "get_bought_out_components": [
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_bought_out_component",
+      "create_user"
+    ],
+    "get_materials": [
+      "create_material"
+    ],
+    "update_bought_out_component": [
+      "create_uom",
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_bought_out_component"
+    ],
+    "get_rmi_items_v2": [
+      "create_uom",
+      "create_raw_material_indent",
+      "create_rmi_v2",
+      "update_rmi_v2",
+      "create_items"
+    ],
+    "get_items": [
+      "create_uom",
+      "create_item_groups",
+      "create_material",
+      "create_material_specification"
+    ],
+    "create_bom_v2": [
+      "create_projects",
+      "create_pgma_master",
+      "create_drawing"
+    ],
+    "create_item_groups": [],
+    "update_item_groups": [
+      "create_item_groups"
+    ],
+    "get_rmi_v2": [
+      "create_uom",
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "create_rmi_v2",
+      "update_rmi_v2",
+      "create_items"
+    ],
+    "create_rmi_v2": [
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "update_rmi_v2"
+    ],
+    "update_rmi_v2": [
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_applicable_pgma",
+      "create_raw_material_indent",
+      "create_rmi_v2"
+    ],
+    "view_drawing": [
+      "create_projects",
+      "create_products",
+      "create_pgma_master",
+      "create_drawing"
+    ],
+    "get_drawings": [
+      "create_projects",
+      "create_products",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_drawing",
+      "create_user"
+    ],
+    "delete_product_manufacturing_schedule": [
+      "create_bom_v2",
+      "create_product_manufacturing_schedule"
+    ],
+    "update_bom_v2": [
+      "create_projects",
+      "create_pgma_master",
+      "create_drawing",
+      "create_bom_v2"
+    ],
+    "update_drawing": [
+      "create_drawing"
+    ],
+    "get_bom_v2": [
+      "create_projects",
+      "create_pgma_master",
+      "create_drawing",
+      "create_bom_v2",
+      "create_items"
+    ],
+    "create_drawing": [
+      "create_projects",
+      "create_products",
+      "create_pgma_master"
+    ],
+    "list_product_manufacturing_schedule": [
+      "create_customer",
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_drawing",
+      "create_product_manufacturing_schedule",
+      "create_user"
+    ],
+    "get_drawings_by_project_id": [
+      "create_projects",
+      "create_products",
+      "create_pg_master",
+      "create_pgma_master"
+    ],
+    "update_product_manufacturing_schedule": [
+      "create_item_groups",
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_drawing",
+      "create_bom_v2",
+      "create_product_manufacturing_schedule"
+    ],
+    "get_pms_bom_items_by_drawing": [
+      "create_drawing",
+      "create_bom_v2",
+      "create_items"
+    ],
+    "get_pdf_product_manufacturing_schedule": [
+      "create_item_groups",
+      "create_customer",
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_drawing",
+      "create_bom_v2",
+      "create_product_manufacturing_schedule",
+      "create_user",
+      "update_bom_v2",
+      "update_product_manufacturing_schedule",
+      "create_items"
+    ],
+    "get_drawing_items_for_pms": [
+      "create_drawing",
+      "create_bom_v2",
+      "create_items"
+    ],
+    "get_pms_shipping_list": [
+      "create_item_groups",
+      "create_customer",
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_drawing",
+      "create_bom_v2",
+      "create_product_manufacturing_schedule",
+      "update_bom_v2",
+      "update_product_manufacturing_schedule",
+      "create_items"
+    ],
+    "get_pms_drawing_index": [
+      "create_customer",
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_drawing",
+      "create_product_manufacturing_schedule"
+    ],
+    "get_pms_drawing_index_items": [
+      "create_drawing",
+      "create_product_manufacturing_schedule"
+    ],
+    "get_shipping_list_items": [
+      "create_drawing",
+      "create_product_manufacturing_schedule"
+    ],
+    "get_bom_last_serial": [
+      "create_projects",
+      "create_pgma_master"
+    ],
+    "get_release_no_by_drawing_id": [
+      "create_drawing"
+    ],
+    "get_detail_product_manufacturing_schedule": [
+      "create_item_groups",
+      "create_customer",
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_drawing",
+      "create_bom_v2",
+      "create_product_manufacturing_schedule",
+      "create_user",
+      "update_bom_v2",
+      "update_product_manufacturing_schedule",
+      "create_items"
+    ],
+    "adeosxlumiere_create_bill_of_material": [],
+    "create_product_manufacturing_schedule": [
+      "create_item_groups",
+      "create_customer",
+      "create_projects",
+      "create_pgma_master",
+      "create_drawing",
+      "create_bom_v2"
+    ],
+    "adeosxlumiere_get_bill_of_materials": [],
+    "get_bom_for_export": [
+      "create_item_groups",
+      "create_material_specification",
+      "create_drawing",
+      "create_bom_v2",
+      "create_items",
+      "update_bom_v2"
+    ],
+    "get_last_drawing_serial_by_project": [
+      "create_projects",
+      "create_pgma_master"
+    ],
+    "list_bom_v2": [
+      "create_projects",
+      "create_pgma_master",
+      "create_drawing",
+      "create_user"
+    ],
+    "get_pgma_by_drawing_id": [
+      "create_projects",
+      "create_pg_master",
+      "create_pgma_master",
+      "create_drawing"
+    ],
+    "get_pms_items_by_pms_id": [
+      "create_item_groups",
+      "create_drawing",
+      "create_bom_v2",
+      "create_product_manufacturing_schedule",
+      "update_bom_v2",
+      "update_product_manufacturing_schedule",
+      "create_items"
+    ]
+  },
+  "reverseDeps": {
+    "get_items_testing": [],
+    "get_item_classes": [],
+    "get_material_specifications": [],
+    "get_uom": [],
+    "get_drawing_category": [],
+    "delete_customer": [],
+    "create_uom": [
+      "get_items_testing",
+      "get_uom",
+      "create_items",
+      "update_uom",
+      "delete_uom",
+      "update_items",
+      "get_raw_material_indent_list_items",
+      "get_rmi_v2_edit",
+      "get_bought_out_components_export",
+      "get_bought_out_component_by_id",
+      "create_bought_out_component",
+      "update_bought_out_component",
+      "get_rmi_items_v2",
+      "get_items",
+      "get_rmi_v2"
+    ],
+    "update_materials": [],
+    "get_materials_id": [],
+    "get_material_specifications_id": [],
+    "delete_material_specifications": [],
+    "update_material_specifications": [],
+    "update_drawing_category": [],
+    "delete_drawing_category": [],
+    "get_drawing_sizes": [],
+    "delete_item_groups": [],
+    "get_employees": [],
+    "get_last_drawing_by_project_id": [],
+    "create_pg_master": [
+      "get_last_drawing_by_project_id",
+      "get_applicable_pgma",
+      "get_pg_master_by_project_id",
+      "update_pg_master",
+      "create_pgma_master",
+      "delete_pg_master",
+      "update_pgma_master",
+      "get_pgma_master",
+      "get_applicable_pgma_by_project_id",
+      "get_applicable_pgma_list_by_project",
+      "get_pgma_master_by_project_id",
+      "get_pg_master",
+      "get_list_of_ma_code_by_pg_code",
+      "get_drawings_pg_list",
+      "get_rmi_v2_edit",
+      "get_bought_out_components_export",
+      "get_raw_material_indent_for_export",
+      "get_pgma_by_project_id",
+      "get_drawings_ma_list",
+      "get_drawings",
+      "list_product_manufacturing_schedule",
+      "get_drawings_by_project_id",
+      "get_pdf_product_manufacturing_schedule",
+      "get_pms_shipping_list",
+      "get_pms_drawing_index",
+      "get_detail_product_manufacturing_schedule",
+      "get_pgma_by_drawing_id"
+    ],
+    "create_items": [
+      "get_raw_material_indent_list_items",
+      "get_rmi_list_items_with_details",
+      "get_rmi_v2_edit",
+      "get_raw_material_indent_list",
+      "get_bought_out_components_export",
+      "get_bought_out_component_by_id",
+      "get_raw_material_indent_for_export",
+      "get_rmi_items_v2",
+      "get_rmi_v2",
+      "get_bom_v2",
+      "get_pms_bom_items_by_drawing",
+      "get_pdf_product_manufacturing_schedule",
+      "get_drawing_items_for_pms",
+      "get_pms_shipping_list",
+      "get_detail_product_manufacturing_schedule",
+      "get_bom_for_export",
+      "get_pms_items_by_pms_id"
+    ],
+    "create_projects": [
+      "get_last_drawing_by_project_id",
+      "get_applicable_pgma",
+      "delete_projects",
+      "get_pg_master_by_project_id",
+      "update_projects",
+      "get_projects",
+      "get_raw_material_indent_by_project_id",
+      "get_raw_material_indent_list_items",
+      "get_raw_material_indent",
+      "get_raw_material_indent_by_id",
+      "create_raw_material_indent",
+      "list_rmi_v2",
+      "get_raw_material_indents",
+      "get_applicable_pgma_by_project_id",
+      "get_applicable_pgma_list_by_project",
+      "get_pgma_master_by_project_id",
+      "update_raw_material_indent",
+      "get_last_rmi_serial_by_project",
+      "get_drawings_pg_list",
+      "get_rmi_v2_edit",
+      "get_raw_material_indent_list",
+      "create_applicable_pgma",
+      "get_bought_out_components_export",
+      "get_bought_out_component_by_id",
+      "get_raw_material_indent_for_export",
+      "get_last_boc_serial_by_project",
+      "get_pgma_by_project_id",
+      "create_bought_out_component",
+      "get_drawings_ma_list",
+      "get_bought_out_components",
+      "update_bought_out_component",
+      "create_bom_v2",
+      "get_rmi_v2",
+      "create_rmi_v2",
+      "update_rmi_v2",
+      "view_drawing",
+      "get_drawings",
+      "update_bom_v2",
+      "get_bom_v2",
+      "create_drawing",
+      "list_product_manufacturing_schedule",
+      "get_drawings_by_project_id",
+      "update_product_manufacturing_schedule",
+      "get_pdf_product_manufacturing_schedule",
+      "get_pms_shipping_list",
+      "get_pms_drawing_index",
+      "get_bom_last_serial",
+      "get_detail_product_manufacturing_schedule",
+      "create_product_manufacturing_schedule",
+      "get_last_drawing_serial_by_project",
+      "list_bom_v2",
+      "get_pgma_by_drawing_id"
+    ],
+    "create_products": [
+      "get_last_drawing_by_project_id",
+      "get_products",
+      "view_drawing",
+      "get_drawings",
+      "create_drawing",
+      "get_drawings_by_project_id"
+    ],
+    "get_products": [],
+    "delete_bom_v2": [],
+    "get_applicable_pgma": [],
+    "get_customer": [],
+    "delete_projects": [],
+    "get_pg_master_by_project_id": [],
+    "update_pg_master": [],
+    "update_projects": [],
+    "create_pgma_master": [
+      "get_last_drawing_by_project_id",
+      "get_applicable_pgma",
+      "get_pg_master_by_project_id",
+      "delete_pgma_master",
+      "update_pgma_master",
+      "get_raw_material_indent_by_project_id",
+      "get_raw_material_indent_list_items",
+      "get_raw_material_indent",
+      "get_applicable_pgma_list",
+      "get_raw_material_indent_by_id",
+      "get_pgma_master",
+      "get_raw_material_indents",
+      "get_applicable_pgma_by_project_id",
+      "get_applicable_pgma_list_by_project",
+      "get_pgma_master_by_project_id",
+      "get_drawings_pg_list",
+      "get_rmi_v2_edit",
+      "get_raw_material_indent_list",
+      "create_applicable_pgma",
+      "get_bought_out_components_export",
+      "get_bought_out_component_by_id",
+      "get_raw_material_indent_for_export",
+      "get_pgma_by_project_id",
+      "create_bought_out_component",
+      "get_drawings_ma_list",
+      "get_bought_out_components",
+      "update_bought_out_component",
+      "create_bom_v2",
+      "get_rmi_v2",
+      "create_rmi_v2",
+      "update_rmi_v2",
+      "view_drawing",
+      "get_drawings",
+      "update_bom_v2",
+      "get_bom_v2",
+      "create_drawing",
+      "list_product_manufacturing_schedule",
+      "get_drawings_by_project_id",
+      "update_product_manufacturing_schedule",
+      "get_pdf_product_manufacturing_schedule",
+      "get_pms_shipping_list",
+      "get_pms_drawing_index",
+      "get_bom_last_serial",
+      "get_detail_product_manufacturing_schedule",
+      "create_product_manufacturing_schedule",
+      "get_last_drawing_serial_by_project",
+      "list_bom_v2",
+      "get_pgma_by_drawing_id"
+    ],
+    "get_last_item_serial_by_group": [],
+    "delete_materials": [],
+    "create_material_specification": [
+      "get_items_testing",
+      "get_material_specifications",
+      "get_material_specifications_id",
+      "create_items",
+      "update_items",
+      "get_items",
+      "get_bom_for_export"
+    ],
+    "update_uom": [],
+    "delete_uom": [],
+    "delete_pg_master": [],
+    "delete_raw_material_indent_list": [],
+    "create_material": [
+      "get_items_testing",
+      "update_materials",
+      "get_materials_id",
+      "create_items",
+      "delete_materials",
+      "update_items",
+      "get_raw_material_indent_list_items",
+      "get_materials",
+      "get_items"
+    ],
+    "delete_pgma_master": [],
+    "get_pgma_category_master": [],
+    "get_supply_conditions": [],
+    "delete_items": [],
+    "update_customer": [],
+    "update_pgma_master": [],
+    "update_items": [],
+    "create_user": [
+      "get_employees",
+      "get_last_drawing_by_project_id",
+      "get_products",
+      "get_applicable_pgma",
+      "get_raw_material_indent_by_project_id",
+      "get_raw_material_indent",
+      "list_rmi_v2",
+      "get_raw_material_indents",
+      "get_applicable_pgma_by_project_id",
+      "get_raw_material_indent_list",
+      "get_bought_out_component_by_id",
+      "get_bought_out_components",
+      "get_drawings",
+      "list_product_manufacturing_schedule",
+      "get_pdf_product_manufacturing_schedule",
+      "get_detail_product_manufacturing_schedule",
+      "list_bom_v2"
+    ],
+    "create_customer": [
+      "delete_customer",
+      "create_projects",
+      "get_customer",
+      "update_projects",
+      "update_customer",
+      "get_projects",
+      "get_raw_material_indent_by_project_id",
+      "get_raw_material_indent_list_items",
+      "get_raw_material_indent",
+      "get_raw_material_indent_by_id",
+      "create_raw_material_indent",
+      "list_rmi_v2",
+      "get_raw_material_indents",
+      "update_raw_material_indent",
+      "get_rmi_v2_edit",
+      "get_raw_material_indent_list",
+      "get_bought_out_components_export",
+      "get_bought_out_component_by_id",
+      "get_raw_material_indent_for_export",
+      "create_bought_out_component",
+      "get_bought_out_components",
+      "update_bought_out_component",
+      "get_rmi_v2",
+      "create_rmi_v2",
+      "update_rmi_v2",
+      "list_product_manufacturing_schedule",
+      "update_product_manufacturing_schedule",
+      "get_pdf_product_manufacturing_schedule",
+      "get_pms_shipping_list",
+      "get_pms_drawing_index",
+      "get_detail_product_manufacturing_schedule",
+      "create_product_manufacturing_schedule"
+    ],
+    "get_projects": [],
+    "delete_raw_material_indent": [],
+    "get_raw_material_indent_by_project_id": [],
+    "get_raw_material_indent_list_items": [],
+    "get_raw_material_indent": [],
+    "create_raw_material_indent_list_item": [],
+    "get_applicable_pgma_list": [],
+    "get_raw_material_indent_by_id": [],
+    "delete_bought_out_component": [],
+    "get_item_groups": [],
+    "get_pgma_master": [],
+    "create_raw_material_indent": [
+      "delete_raw_material_indent",
+      "get_raw_material_indent_list_items",
+      "get_raw_material_indent",
+      "create_raw_material_indent_list_item",
+      "get_raw_material_indent_by_id",
+      "get_rmi_list_items_with_details",
+      "delete_rmi_v2",
+      "get_raw_material_indents",
+      "update_raw_material_indent",
+      "get_rmi_v2_edit",
+      "get_raw_material_indent_list",
+      "get_raw_material_indent_for_export",
+      "get_rmi_items_v2",
+      "get_rmi_v2",
+      "create_rmi_v2",
+      "update_rmi_v2"
+    ],
+    "get_rmi_list_items_with_details": [],
+    "delete_rmi_v2": [],
+    "list_rmi_v2": [],
+    "get_raw_material_indents": [],
+    "get_emp_test": [],
+    "get_applicable_pgma_by_project_id": [],
+    "get_applicable_pgma_list_by_project": [],
+    "get_pgma_master_by_project_id": [],
+    "get_pg_master": [],
+    "update_raw_material_indent": [],
+    "get_list_of_ma_code_by_pg_code": [],
+    "get_last_rmi_serial_by_project": [],
+    "get_drawings_pg_list": [],
+    "get_rmi_v2_edit": [],
+    "get_raw_material_indent_list": [],
+    "create_applicable_pgma": [
+      "get_applicable_pgma",
+      "get_pg_master_by_project_id",
+      "get_raw_material_indent_by_project_id",
+      "get_raw_material_indent",
+      "get_applicable_pgma_list",
+      "get_raw_material_indent_by_id",
+      "create_raw_material_indent",
+      "get_raw_material_indents",
+      "get_applicable_pgma_by_project_id",
+      "get_applicable_pgma_list_by_project",
+      "get_pgma_master_by_project_id",
+      "update_raw_material_indent",
+      "get_drawings_pg_list",
+      "get_rmi_v2_edit",
+      "get_raw_material_indent_list",
+      "get_bought_out_components_export",
+      "get_raw_material_indent_for_export",
+      "get_pgma_by_project_id",
+      "get_drawings_ma_list",
+      "get_rmi_v2",
+      "create_rmi_v2",
+      "update_rmi_v2"
+    ],
+    "get_bought_out_components_export": [],
+    "get_bought_out_component_by_id": [],
+    "get_raw_material_indent_for_export": [],
+    "get_last_boc_serial_by_project": [],
+    "get_pgma_by_project_id": [],
+    "create_bought_out_component": [
+      "delete_bought_out_component",
+      "get_bought_out_components_export",
+      "get_bought_out_component_by_id",
+      "get_bought_out_components",
+      "update_bought_out_component"
+    ],
+    "get_drawings_ma_list": [],
+    "get_bought_out_components": [],
+    "get_materials": [],
+    "update_bought_out_component": [],
+    "get_rmi_items_v2": [],
+    "get_items": [],
+    "create_bom_v2": [
+      "delete_bom_v2",
+      "delete_product_manufacturing_schedule",
+      "update_bom_v2",
+      "get_bom_v2",
+      "update_product_manufacturing_schedule",
+      "get_pms_bom_items_by_drawing",
+      "get_pdf_product_manufacturing_schedule",
+      "get_drawing_items_for_pms",
+      "get_pms_shipping_list",
+      "get_detail_product_manufacturing_schedule",
+      "create_product_manufacturing_schedule",
+      "get_bom_for_export",
+      "get_pms_items_by_pms_id"
+    ],
+    "create_item_groups": [
+      "get_items_testing",
+      "delete_item_groups",
+      "create_items",
+      "get_last_item_serial_by_group",
+      "update_items",
+      "get_item_groups",
+      "get_items",
+      "update_item_groups",
+      "update_product_manufacturing_schedule",
+      "get_pdf_product_manufacturing_schedule",
+      "get_pms_shipping_list",
+      "get_detail_product_manufacturing_schedule",
+      "create_product_manufacturing_schedule",
+      "get_bom_for_export",
+      "get_pms_items_by_pms_id"
+    ],
+    "update_item_groups": [],
+    "get_rmi_v2": [],
+    "create_rmi_v2": [
+      "delete_raw_material_indent",
+      "get_raw_material_indent_list_items",
+      "get_raw_material_indent",
+      "create_raw_material_indent_list_item",
+      "get_raw_material_indent_by_id",
+      "create_raw_material_indent",
+      "get_rmi_list_items_with_details",
+      "delete_rmi_v2",
+      "get_raw_material_indents",
+      "update_raw_material_indent",
+      "get_rmi_v2_edit",
+      "get_raw_material_indent_list",
+      "get_raw_material_indent_for_export",
+      "get_rmi_items_v2",
+      "get_rmi_v2",
+      "update_rmi_v2"
+    ],
+    "update_rmi_v2": [
+      "get_rmi_v2_edit",
+      "get_raw_material_indent_for_export",
+      "get_rmi_items_v2",
+      "get_rmi_v2",
+      "create_rmi_v2"
+    ],
+    "view_drawing": [],
+    "get_drawings": [],
+    "delete_product_manufacturing_schedule": [],
+    "update_bom_v2": [
+      "get_pdf_product_manufacturing_schedule",
+      "get_pms_shipping_list",
+      "get_detail_product_manufacturing_schedule",
+      "get_bom_for_export",
+      "get_pms_items_by_pms_id"
+    ],
+    "update_drawing": [],
+    "get_bom_v2": [],
+    "create_drawing": [
+      "create_bom_v2",
+      "view_drawing",
+      "get_drawings",
+      "update_bom_v2",
+      "update_drawing",
+      "get_bom_v2",
+      "list_product_manufacturing_schedule",
+      "update_product_manufacturing_schedule",
+      "get_pms_bom_items_by_drawing",
+      "get_pdf_product_manufacturing_schedule",
+      "get_drawing_items_for_pms",
+      "get_pms_shipping_list",
+      "get_pms_drawing_index",
+      "get_pms_drawing_index_items",
+      "get_shipping_list_items",
+      "get_release_no_by_drawing_id",
+      "get_detail_product_manufacturing_schedule",
+      "create_product_manufacturing_schedule",
+      "get_bom_for_export",
+      "list_bom_v2",
+      "get_pgma_by_drawing_id",
+      "get_pms_items_by_pms_id"
+    ],
+    "list_product_manufacturing_schedule": [],
+    "get_drawings_by_project_id": [],
+    "update_product_manufacturing_schedule": [
+      "get_pdf_product_manufacturing_schedule",
+      "get_pms_shipping_list",
+      "get_detail_product_manufacturing_schedule",
+      "get_pms_items_by_pms_id"
+    ],
+    "get_pms_bom_items_by_drawing": [],
+    "get_pdf_product_manufacturing_schedule": [],
+    "get_drawing_items_for_pms": [],
+    "get_pms_shipping_list": [],
+    "get_pms_drawing_index": [],
+    "get_pms_drawing_index_items": [],
+    "get_shipping_list_items": [],
+    "get_bom_last_serial": [],
+    "get_release_no_by_drawing_id": [],
+    "get_detail_product_manufacturing_schedule": [],
+    "adeosxlumiere_create_bill_of_material": [],
+    "create_product_manufacturing_schedule": [
+      "delete_product_manufacturing_schedule",
+      "list_product_manufacturing_schedule",
+      "update_product_manufacturing_schedule",
+      "get_pdf_product_manufacturing_schedule",
+      "get_pms_shipping_list",
+      "get_pms_drawing_index",
+      "get_pms_drawing_index_items",
+      "get_shipping_list_items",
+      "get_detail_product_manufacturing_schedule",
+      "get_pms_items_by_pms_id"
+    ],
+    "adeosxlumiere_get_bill_of_materials": [],
+    "get_bom_for_export": [],
+    "get_last_drawing_serial_by_project": [],
+    "list_bom_v2": [],
+    "get_pgma_by_drawing_id": [],
+    "get_pms_items_by_pms_id": []
+  }
+}

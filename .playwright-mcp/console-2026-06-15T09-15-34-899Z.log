@@ -1,0 +1,85 @@
+[    3112ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://dev.erp.eepc.coffeeinc.in/login:0
+[  408762ms] [LOG] [DataRegistry] Registered data source: fa7e1929-d4f3-486d-9e90-fcf91cee360a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  414715ms] [LOG] [DataRegistry] Unregistered data source: fa7e1929-d4f3-486d-9e90-fcf91cee360a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  415311ms] [LOG] [DataRegistry] Registered data source: b8d96a40-d875-4fa3-a911-da230d6bb408 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  419467ms] [LOG] [DataRegistry] Unregistered data source: b8d96a40-d875-4fa3-a911-da230d6bb408 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  419932ms] [LOG] [DataRegistry] Registered data source: ad8aeab0-3f4a-4019-a2bb-b2f664c7d6a2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  420793ms] [LOG] [DataRegistry] Unregistered data source: ad8aeab0-3f4a-4019-a2bb-b2f664c7d6a2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  421722ms] [LOG] [DataRegistry] Registered data source: aea51d30-d6fe-4e44-bad7-f9cffe02665b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  422989ms] [LOG] [FormComponent] Registering form: a240a0a7-bd21-41cf-bf7f-5b436854f7bd @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[  424858ms] [LOG] [FormComponent] Unregistering form: a240a0a7-bd21-41cf-bf7f-5b436854f7bd @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[  424858ms] [LOG] [FormErrorsStore] deregisterForm a240a0a7-bd21-41cf-bf7f-5b436854f7bd @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8349
+[  426018ms] [LOG] [DataRegistry] Unregistered data source: aea51d30-d6fe-4e44-bad7-f9cffe02665b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  426877ms] [LOG] [DataRegistry] Registered data source: 3ebc95ba-fb51-4c6c-aafc-6087746c1e4b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  429398ms] [LOG] [DataRegistry] Unregistered data source: 3ebc95ba-fb51-4c6c-aafc-6087746c1e4b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  430026ms] [LOG] [DataRegistry] Registered data source: 618aa0f3-a012-4bd7-a931-984c253eac6c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  432582ms] [LOG] [DataRegistry] Unregistered data source: 618aa0f3-a012-4bd7-a931-984c253eac6c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  433488ms] [LOG] [DataRegistry] Registered data source: 3d8df45e-efa0-43ae-893f-fafe41c8bf31 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  434980ms] [LOG] [FormComponent] Registering form: 819e1b35-104c-4a6a-88bc-9083dadd5117 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[  436723ms] [LOG] [FormComponent] Unregistering form: 819e1b35-104c-4a6a-88bc-9083dadd5117 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[  436723ms] [LOG] [FormErrorsStore] deregisterForm 819e1b35-104c-4a6a-88bc-9083dadd5117 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8349
+[  437323ms] [LOG] [DataRegistry] Unregistered data source: 3d8df45e-efa0-43ae-893f-fafe41c8bf31 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  439198ms] [LOG] [DataRegistry] Registered data source: 224249d2-d6ce-49ee-927c-dd46fbb9e6e2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  440120ms] [LOG] [SelectComponent] Built validation rule: {name: pg_master_id, required: undefined, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[  440121ms] [LOG] [SelectComponent] Built validation rule: {name: pgma_category_id, required: undefined, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[  440127ms] [LOG] [SelectComponent] State cleared, resetting component: pg_master_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[  440127ms] [LOG] [SelectComponent] Resolved endpoint: /api/pg_master @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[  440128ms] [LOG] [DataRegistry] Registered data source: 78eb636d-8e6c-44c6-af21-edd6cd6f0a98 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  440128ms] [LOG] [SelectComponent] Registering field with form: {name: pg_master_id, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[  440129ms] [LOG] [SelectComponent] State cleared, resetting component: pgma_category_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[  440129ms] [LOG] [SelectComponent] Resolved endpoint: /api/pgma_category_master @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[  440130ms] [LOG] [DataRegistry] Registered data source: 7c54f416-8a89-49d4-a50a-e6789e067b42 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  440130ms] [LOG] [SelectComponent] Registering field with form: {name: pgma_category_id, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[  440130ms] [LOG] [FormComponent] Registering form: a294635f-a9e8-43a8-a09d-3675a637fdcd @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[  445376ms] [LOG] [FormComponent] Unregistering form: a294635f-a9e8-43a8-a09d-3675a637fdcd @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[  445377ms] [LOG] [FormErrorsStore] deregisterForm a294635f-a9e8-43a8-a09d-3675a637fdcd @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8349
+[  445377ms] [LOG] [DataRegistry] Unregistered data source: 78eb636d-8e6c-44c6-af21-edd6cd6f0a98 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  445377ms] [LOG] [DataRegistry] Unregistered data source: 7c54f416-8a89-49d4-a50a-e6789e067b42 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  448099ms] [LOG] [DataRegistry] Unregistered data source: 224249d2-d6ce-49ee-927c-dd46fbb9e6e2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  448626ms] [LOG] [DataRegistry] Registered data source: ad8aeab0-3f4a-4019-a2bb-b2f664c7d6a2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  448902ms] [LOG] [DataRegistry] Unregistered data source: ad8aeab0-3f4a-4019-a2bb-b2f664c7d6a2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  448904ms] [LOG] [DataRegistry] Registered data source: fa7e1929-d4f3-486d-9e90-fcf91cee360a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  450700ms] [LOG] [DataRegistry] Unregistered data source: fa7e1929-d4f3-486d-9e90-fcf91cee360a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  451488ms] [LOG] [DataRegistry] Registered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  452532ms] [LOG] [DataRegistry] Unregistered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  453039ms] [LOG] [DataRegistry] Registered data source: aea51d30-d6fe-4e44-bad7-f9cffe02665b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  454026ms] [LOG] [FormComponent] Registering form: a240a0a7-bd21-41cf-bf7f-5b436854f7bd @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[  456937ms] [LOG] [FormComponent] Unregistering form: a240a0a7-bd21-41cf-bf7f-5b436854f7bd @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[  456937ms] [LOG] [FormErrorsStore] deregisterForm a240a0a7-bd21-41cf-bf7f-5b436854f7bd @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8349
+[  663063ms] [LOG] [DataRegistry] Unregistered data source: aea51d30-d6fe-4e44-bad7-f9cffe02665b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  800788ms] [LOG] [DataRegistry] Registered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  812558ms] [LOG] [DataRegistry] Unregistered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  812779ms] [LOG] [DataRegistry] Registered data source: fa7e1929-d4f3-486d-9e90-fcf91cee360a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  813030ms] [LOG] [DataRegistry] Unregistered data source: fa7e1929-d4f3-486d-9e90-fcf91cee360a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  814516ms] [LOG] [DataRegistry] Registered data source: ad8aeab0-3f4a-4019-a2bb-b2f664c7d6a2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  814837ms] [LOG] [DataRegistry] Unregistered data source: ad8aeab0-3f4a-4019-a2bb-b2f664c7d6a2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  815078ms] [LOG] [DataRegistry] Registered data source: eed02e31-f285-4828-bf59-c894172cca28 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  815302ms] [LOG] [DataRegistry] Unregistered data source: eed02e31-f285-4828-bf59-c894172cca28 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  815517ms] [LOG] [DataRegistry] Registered data source: aea51d30-d6fe-4e44-bad7-f9cffe02665b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  815770ms] [LOG] [DataRegistry] Unregistered data source: aea51d30-d6fe-4e44-bad7-f9cffe02665b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  815823ms] [LOG] [DataRegistry] Registered data source: b8d96a40-d875-4fa3-a911-da230d6bb408 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  816124ms] [LOG] [DataRegistry] Unregistered data source: b8d96a40-d875-4fa3-a911-da230d6bb408 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  816125ms] [LOG] [DataRegistry] Registered data source: 3ebc95ba-fb51-4c6c-aafc-6087746c1e4b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  816295ms] [LOG] [DataRegistry] Unregistered data source: 3ebc95ba-fb51-4c6c-aafc-6087746c1e4b @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  816295ms] [LOG] [DataRegistry] Registered data source: 618aa0f3-a012-4bd7-a931-984c253eac6c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  816306ms] [LOG] [DataRegistry] Unregistered data source: 618aa0f3-a012-4bd7-a931-984c253eac6c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  817197ms] [LOG] [DataRegistry] Registered data source: 3d8df45e-efa0-43ae-893f-fafe41c8bf31 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  817231ms] [LOG] [DataRegistry] Unregistered data source: 3d8df45e-efa0-43ae-893f-fafe41c8bf31 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  818563ms] [LOG] [DataRegistry] Registered data source: 224249d2-d6ce-49ee-927c-dd46fbb9e6e2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  821598ms] [LOG] [DataRegistry] Unregistered data source: 224249d2-d6ce-49ee-927c-dd46fbb9e6e2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  822423ms] [LOG] [DataRegistry] Registered data source: 3d8df45e-efa0-43ae-893f-fafe41c8bf31 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  872580ms] [LOG] [DataRegistry] Unregistered data source: 3d8df45e-efa0-43ae-893f-fafe41c8bf31 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  873109ms] [LOG] [DataRegistry] Registered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  875210ms] [LOG] [DataRegistry] Unregistered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  875471ms] [LOG] [DataRegistry] Registered data source: fa7e1929-d4f3-486d-9e90-fcf91cee360a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  876125ms] [LOG] [DataRegistry] Unregistered data source: fa7e1929-d4f3-486d-9e90-fcf91cee360a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  877724ms] [LOG] [DataRegistry] Registered data source: b8d96a40-d875-4fa3-a911-da230d6bb408 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  889210ms] [LOG] [DataRegistry] Unregistered data source: b8d96a40-d875-4fa3-a911-da230d6bb408 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  896999ms] [LOG] [DataRegistry] Registered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  898665ms] [LOG] [DataRegistry] Unregistered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  898666ms] [LOG] [DataRegistry] Registered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  913305ms] [LOG] [DataRegistry] Unregistered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  971216ms] [LOG] [DataRegistry] Registered data source: eed02e31-f285-4828-bf59-c894172cca28 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  971771ms] [LOG] [DataRegistry] Unregistered data source: eed02e31-f285-4828-bf59-c894172cca28 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  971773ms] [LOG] [DataRegistry] Registered data source: eed02e31-f285-4828-bf59-c894172cca28 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[  975564ms] [LOG] [DataRegistry] Unregistered data source: eed02e31-f285-4828-bf59-c894172cca28 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345

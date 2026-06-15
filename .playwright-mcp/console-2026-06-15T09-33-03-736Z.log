@@ -1,0 +1,306 @@
+[ 1224604ms] [LOG] [DataRegistry] Registered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1231013ms] [LOG] [DataRegistry] Unregistered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1578883ms] [LOG] [DataRegistry] Registered data source: b8d96a40-d875-4fa3-a911-da230d6bb408 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1585772ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585773ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585777ms] [LOG] [SelectComponent] Built validation rule: {name: item_group_id, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585779ms] [LOG] [SelectComponent] Built validation rule: {name: material_id, required: undefined, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585779ms] [LOG] [SelectComponent] Built validation rule: {name: material_specification_id, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585780ms] [LOG] [SelectComponent] Built validation rule: {name: uom_id, required: undefined, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585781ms] [LOG] [SelectComponent] Built validation rule: {name: supply_condition_id, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585798ms] [LOG] [DataRegistry] Unregistered data source: b8d96a40-d875-4fa3-a911-da230d6bb408 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1585799ms] [LOG] [CodeGenerator] Final calculation: {baseNumber: 0, operation: increment, step: 1, finalNumber: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585799ms] [LOG] [CodeGenerator] Setting serial numbers: {4: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585800ms] [LOG] [SelectComponent] State cleared, resetting component: item_group_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585800ms] [LOG] [SelectComponent] Resolved endpoint: /api/item-groups @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585801ms] [LOG] [DataRegistry] Registered data source: 960fa133-ac44-45d7-bebd-70e7d03f41ea @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1585802ms] [LOG] [SelectComponent] Registering field with form: {name: item_group_id, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585802ms] [LOG] [SelectComponent] State cleared, resetting component: material_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585802ms] [LOG] [SelectComponent] Resolved endpoint: /api/materials @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585803ms] [LOG] [DataRegistry] Registered data source: da4caaab-5f3a-48d6-a6e1-af4f6db88b9c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1585803ms] [LOG] [SelectComponent] Registering field with form: {name: material_id, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585803ms] [LOG] [SelectComponent] State cleared, resetting component: material_specification_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585804ms] [LOG] [SelectComponent] Resolved endpoint: /api/material-specifications @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585804ms] [LOG] [DataRegistry] Registered data source: 4996832a-4ca3-44e9-9f94-a9d502f107c4 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1585804ms] [LOG] [SelectComponent] Registering field with form: {name: material_specification_id, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585805ms] [LOG] [SelectComponent] State cleared, resetting component: uom_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585805ms] [LOG] [SelectComponent] Resolved endpoint: /api/uom @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585805ms] [LOG] [DataRegistry] Registered data source: f15b8387-3cad-424e-9a1f-b4d973ff426a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1585806ms] [LOG] [SelectComponent] Registering field with form: {name: uom_id, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585806ms] [LOG] [KeyValueComponent] Debug: {name: dimensions, dataSourceType: undefined, statePath: undefined, watchedStateValue: undefined, pairsCount: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585806ms] [LOG] [SelectComponent] State cleared, resetting component: supply_condition_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585807ms] [LOG] [SelectComponent] Resolved endpoint: /api/supply_conditions @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585807ms] [LOG] [DataRegistry] Registered data source: e0d88e23-b4da-41be-80c5-79fc66b1893f @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1585807ms] [LOG] [SelectComponent] Registering field with form: {name: supply_condition_id, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585810ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585810ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585812ms] [LOG] [CodeGenerator] Final calculation: {baseNumber: 0, operation: increment, step: 1, finalNumber: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585812ms] [LOG] [CodeGenerator] Setting serial numbers: {4: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585812ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585812ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585813ms] [LOG] [CodeGenerator] Final calculation: {baseNumber: 0, operation: increment, step: 1, finalNumber: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585813ms] [LOG] [CodeGenerator] Setting serial numbers: {4: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585817ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1585817ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1591264ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1591264ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1591919ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1591920ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1592411ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1592411ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1592919ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1592919ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1595789ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1595789ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1596260ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1596260ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1596661ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1596661ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1597740ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1597740ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1597774ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1597774ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1598275ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1598276ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1598904ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1598904ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1598972ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1598972ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1599556ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1599556ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1600339ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1600339ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1729101ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1729101ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1729307ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1729307ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1729808ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1729808ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1733094ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1733094ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1781439ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1781440ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1781932ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1781932ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1782438ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1782438ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1786100ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1786100ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1800099ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1800099ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1800597ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1800597ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1800946ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1800947ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1804768ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: item_code, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1804769ms] [LOG] [CodeGenerator] Controller render: {fieldName: item_code, fieldValue: *********00001, generatedCode: *********00001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 1956274ms] [LOG] [DataRegistry] Unregistered data source: 960fa133-ac44-45d7-bebd-70e7d03f41ea @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1956274ms] [LOG] [DataRegistry] Unregistered data source: da4caaab-5f3a-48d6-a6e1-af4f6db88b9c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1956274ms] [LOG] [DataRegistry] Unregistered data source: 4996832a-4ca3-44e9-9f94-a9d502f107c4 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1956274ms] [LOG] [DataRegistry] Unregistered data source: f15b8387-3cad-424e-9a1f-b4d973ff426a @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1956275ms] [LOG] [DataRegistry] Unregistered data source: e0d88e23-b4da-41be-80c5-79fc66b1893f @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1992209ms] [LOG] [DataRegistry] Registered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 1993231ms] [LOG] [FormComponent] Registering form: cafb5fbd-03b6-4efd-acf3-017a5e4927a2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 2005694ms] [LOG] [FormComponent] Unregistering form: cafb5fbd-03b6-4efd-acf3-017a5e4927a2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 2005695ms] [LOG] [FormErrorsStore] deregisterForm cafb5fbd-03b6-4efd-acf3-017a5e4927a2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8349
+[ 2006782ms] [LOG] [DataRegistry] Unregistered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2007280ms] [LOG] [DataRegistry] Registered data source: c345480a-65f4-4aef-b174-97c776204e93 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2014503ms] [LOG] [DataRegistry] Unregistered data source: c345480a-65f4-4aef-b174-97c776204e93 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2018220ms] [LOG] [DataRegistry] Registered data source: b1f543d2-4af3-4f81-a208-aff5f728eaaa @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2022108ms] [LOG] [DataRegistry] Unregistered data source: b1f543d2-4af3-4f81-a208-aff5f728eaaa @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2023446ms] [LOG] [DataRegistry] Registered data source: 79a7b1bd-97a5-4429-a9c1-3dc8a2470619 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2023734ms] [LOG] [DataRegistry] Unregistered data source: 79a7b1bd-97a5-4429-a9c1-3dc8a2470619 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2162668ms] [LOG] [DataRegistry] Registered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2162697ms] [LOG] [DataRegistry] Unregistered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2162698ms] [LOG] [DataRegistry] Registered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2288126ms] [LOG] [DataRegistry] Unregistered data source: c476bb6f-093b-4e9b-bf7d-c25e84fe0021 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2320496ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:109
+[ 2523072ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:109
+[ 2843215ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.dev.erp.eepc.coffeeinc.in/screens/route/%2Fprojects%2Flist:0
+[ 2843940ms] [LOG] [DataRegistry] Registered data source: b1f543d2-4af3-4f81-a208-aff5f728eaaa @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2848251ms] [LOG] [DataRegistry] Unregistered data source: b1f543d2-4af3-4f81-a208-aff5f728eaaa @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2849334ms] [LOG] [DataRegistry] Registered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2921596ms] [LOG] [DataRegistry] Unregistered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2923995ms] [LOG] [DataRegistry] Registered data source: c345480a-65f4-4aef-b174-97c776204e93 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2936626ms] [LOG] [DataRegistry] Unregistered data source: c345480a-65f4-4aef-b174-97c776204e93 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2939874ms] [LOG] [DataRegistry] Registered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2940190ms] [LOG] [DataRegistry] Unregistered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2940191ms] [LOG] [DataRegistry] Registered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2942106ms] [LOG] [DataRegistry] Unregistered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 2950993ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:109
+[ 3142348ms] [LOG] [DataRegistry] Registered data source: 618aa0f3-a012-4bd7-a931-984c253eac6c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3145222ms] [LOG] [DataRegistry] Unregistered data source: 618aa0f3-a012-4bd7-a931-984c253eac6c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3145224ms] [LOG] [DataRegistry] Registered data source: 618aa0f3-a012-4bd7-a931-984c253eac6c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3183411ms] [LOG] [DataRegistry] Unregistered data source: 618aa0f3-a012-4bd7-a931-984c253eac6c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3227368ms] [LOG] [DataRegistry] Registered data source: 54be60c6-c732-479b-9ed1-c3895f955460 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3227659ms] [LOG] [DataRegistry] Unregistered data source: 54be60c6-c732-479b-9ed1-c3895f955460 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3227660ms] [LOG] [DataRegistry] Registered data source: 54be60c6-c732-479b-9ed1-c3895f955460 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3230094ms] [LOG] [SelectComponent] Built validation rule: {name: drawing_type1, required: false, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230095ms] [LOG] [FormFieldSelect RENDER] Field "drawing_type1": {staticOptions: Array(2), dynamicOptions: Array(0), finalOptions: Array(2), optionsLength: 2, isLoading: false} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230095ms] [LOG] [FormFieldSelect RENDER] "drawing_type1" - Rendering: 2 options (filtered from 2) @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230096ms] [LOG] [SelectComponent] Built validation rule: {name: drawing_type2, required: false, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230096ms] [LOG] [FormFieldSelect RENDER] Field "drawing_type2": {staticOptions: Array(6), dynamicOptions: Array(0), finalOptions: Array(6), optionsLength: 6, isLoading: false} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230097ms] [LOG] [FormFieldSelect RENDER] "drawing_type2" - Rendering: 6 options (filtered from 6) @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230098ms] [LOG] [SelectComponent] Built validation rule: {name: prepared_by, required: false, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230099ms] [LOG] [SelectComponent] Built validation rule: {name: drawn_by, required: false, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230099ms] [LOG] [SelectComponent] Built validation rule: {name: checked_by, required: false, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230100ms] [LOG] [SelectComponent] Built validation rule: {name: approved_by, required: false, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230120ms] [LOG] [DataRegistry] Unregistered data source: 54be60c6-c732-479b-9ed1-c3895f955460 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3230121ms] [LOG] [FormFieldSelect] Registering field: {name: drawing_type1, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230122ms] [LOG] [SelectComponent] State cleared, resetting component: drawing_type1 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230122ms] [LOG] [SelectComponent] Registering field with form: {name: drawing_type1, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230122ms] [LOG] [FormFieldSelect] Registering field: {name: drawing_type2, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230123ms] [LOG] [SelectComponent] State cleared, resetting component: drawing_type2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230123ms] [LOG] [SelectComponent] Registering field with form: {name: drawing_type2, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230123ms] [LOG] [SelectComponent] State cleared, resetting component: prepared_by @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230124ms] [LOG] [SelectComponent] Resolved endpoint: /api/employees @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230124ms] [LOG] [DataRegistry] Registered data source: dd040001-0000-4000-8000-000000000061 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3230125ms] [LOG] [SelectComponent] Registering field with form: {name: prepared_by, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230125ms] [LOG] [SelectComponent] State cleared, resetting component: drawn_by @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230125ms] [LOG] [SelectComponent] Resolved endpoint: /api/employees @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230126ms] [LOG] [DataRegistry] Registered data source: dd040001-0000-4000-8000-000000000062 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3230126ms] [LOG] [SelectComponent] Registering field with form: {name: drawn_by, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230126ms] [LOG] [SelectComponent] State cleared, resetting component: checked_by @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230126ms] [LOG] [SelectComponent] Resolved endpoint: /api/employees @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230127ms] [LOG] [DataRegistry] Registered data source: dd040001-0000-4000-8000-000000000071 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3230127ms] [LOG] [SelectComponent] Registering field with form: {name: checked_by, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230127ms] [LOG] [SelectComponent] State cleared, resetting component: approved_by @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230128ms] [LOG] [SelectComponent] Resolved endpoint: /api/employees @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230128ms] [LOG] [DataRegistry] Registered data source: dd040001-0000-4000-8000-000000000072 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3230128ms] [LOG] [SelectComponent] Registering field with form: {name: approved_by, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3230130ms] [LOG] [FormFieldSelect RENDER] Field "drawing_type1": {staticOptions: Array(2), dynamicOptions: Array(0), finalOptions: Array(2), optionsLength: 2, isLoading: false} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230130ms] [LOG] [FormFieldSelect RENDER] "drawing_type1" - Rendering: 2 options (filtered from 2) @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230130ms] [LOG] [FormFieldSelect RENDER] Field "drawing_type2": {staticOptions: Array(6), dynamicOptions: Array(0), finalOptions: Array(6), optionsLength: 6, isLoading: false} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230130ms] [LOG] [FormFieldSelect RENDER] "drawing_type2" - Rendering: 6 options (filtered from 6) @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230541ms] [LOG] [FormFieldSelect RENDER] Field "drawing_type1": {staticOptions: Array(2), dynamicOptions: Array(0), finalOptions: Array(2), optionsLength: 2, isLoading: false} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230541ms] [LOG] [FormFieldSelect RENDER] "drawing_type1" - Rendering: 2 options (filtered from 2) @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230541ms] [LOG] [FormFieldSelect RENDER] Field "drawing_type2": {staticOptions: Array(6), dynamicOptions: Array(0), finalOptions: Array(6), optionsLength: 6, isLoading: false} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3230542ms] [LOG] [FormFieldSelect RENDER] "drawing_type2" - Rendering: 6 options (filtered from 6) @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8368
+[ 3231223ms] [LOG] [SelectComponent] Built validation rule: {name: drawing_category_id, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231224ms] [LOG] [SelectComponent] Built validation rule: {name: project_id, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231224ms] [LOG] [SelectComponent] Built validation rule: {name: product_id, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231225ms] [LOG] [SelectComponent] Built validation rule: {name: drawing_type1, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231225ms] [LOG] [SelectComponent] Built validation rule: {name: drawing_type2, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231226ms] [LOG] [useWatchMultipleStatePaths] Extracted root keys: [selectedProject] @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231226ms] [LOG] [useWatchMultipleStatePaths] Resolving "project_id": statePath="selectedProject.id", rootKey="selectedProject", nestedPath="id", rootValue= undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231226ms] [LOG] [useWatchMultipleStatePaths] Final resolved: {project_id: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231226ms] [LOG] [SelectComponent] Built validation rule: {name: pggp, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231227ms] [LOG] [useWatchMultipleStatePaths] Extracted root keys: [selectedPG, selectedProject] @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231227ms] [LOG] [useWatchMultipleStatePaths] Resolving "pg_code": statePath="selectedPG.pg_code", rootKey="selectedPG", nestedPath="pg_code", rootValue= undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231227ms] [LOG] [useWatchMultipleStatePaths] Resolving "project_id": statePath="selectedProject.id", rootKey="selectedProject", nestedPath="id", rootValue= undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231227ms] [LOG] [useWatchMultipleStatePaths] Final resolved: {pg_code: undefined, project_id: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231227ms] [LOG] [SelectComponent] Built validation rule: {name: maap, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231227ms] [LOG] [SelectComponent] Built validation rule: {name: drawing_size_id, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231228ms] [LOG] [SelectComponent] Built validation rule: {name: is_ibr, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231228ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: drawing_number, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231228ms] [LOG] [CodeGenerator] Controller render: {fieldName: drawing_number, fieldValue: ******-**-**-**-**-0001, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231229ms] [LOG] [SelectComponent] Built validation rule: {name: prepared_by, required: undefined, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231230ms] [LOG] [SelectComponent] Built validation rule: {name: drawn_by, required: undefined, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231230ms] [LOG] [SelectComponent] Built validation rule: {name: checked_by, required: undefined, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231230ms] [LOG] [SelectComponent] Built validation rule: {name: approved_by, required: undefined, rule: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231234ms] [LOG] [DataRegistry] Unregistered data source: dd040001-0000-4000-8000-000000000061 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231234ms] [LOG] [DataRegistry] Unregistered data source: dd040001-0000-4000-8000-000000000062 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231234ms] [LOG] [DataRegistry] Unregistered data source: dd040001-0000-4000-8000-000000000071 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231235ms] [LOG] [DataRegistry] Unregistered data source: dd040001-0000-4000-8000-000000000072 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231235ms] [LOG] [SelectComponent] Resolved endpoint: /api/drawing-categories @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231236ms] [LOG] [DataRegistry] Registered data source: 36739e73-1f58-4524-8482-a9398511c403 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231236ms] [LOG] [SelectComponent] Registering field with form: {name: drawing_category_id, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231237ms] [LOG] [SelectComponent] Resolved endpoint: /api/projects @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231237ms] [LOG] [DataRegistry] Registered data source: 65b95f0d-6fad-4093-8871-b72e616ee4da @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231238ms] [LOG] [SelectComponent] Registering field with form: {name: project_id, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231238ms] [LOG] [SelectComponent] Resolved endpoint: /api/products @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231239ms] [LOG] [DataRegistry] Registered data source: d334e9b8-5882-44e4-8134-861dc39f1eb2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231239ms] [LOG] [SelectComponent] Registering field with form: {name: product_id, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231239ms] [LOG] [SelectComponent] Registering field with form: {name: drawing_type1, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231240ms] [LOG] [SelectComponent] Registering field with form: {name: drawing_type2, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231240ms] [LOG] [useWatchMultipleStatePaths] Input pathParams: {project_id: selectedProject.id} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231240ms] [LOG] [useWatchMultipleStatePaths] Initial values: {selectedProject: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231241ms] [LOG] [SelectComponent] Path param "project_id": value = undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231241ms] [LOG] [SelectComponent] Skipping fetch - missing path param value for: project_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231241ms] [LOG] [DataRegistry] Registered data source: 3733e8bc-ad47-461c-97a1-699c96cdccc8 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231241ms] [LOG] [SelectComponent] Registering field with form: {name: pggp, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231242ms] [LOG] [useWatchMultipleStatePaths] Input pathParams: {pg_code: selectedPG.pg_code, project_id: selectedProject.id} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231242ms] [LOG] [useWatchMultipleStatePaths] Initial values: {selectedPG: undefined, selectedProject: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231242ms] [LOG] [SelectComponent] Path param "pg_code": value = undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231242ms] [LOG] [SelectComponent] Skipping fetch - missing path param value for: pg_code @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231242ms] [LOG] [DataRegistry] Registered data source: cc6eb142-c6a9-464e-9538-a2ce69aba360 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231243ms] [LOG] [SelectComponent] Registering field with form: {name: maap, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231243ms] [LOG] [SelectComponent] Resolved endpoint: /api/drawing-sizes @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231244ms] [LOG] [DataRegistry] Registered data source: d295df06-1b56-404c-b641-d1dc170f564d @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231244ms] [LOG] [SelectComponent] Registering field with form: {name: drawing_size_id, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231244ms] [LOG] [SelectComponent] Registering field with form: {name: is_ibr, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231245ms] [LOG] [CodeGenerator] Setting serial numbers: {10: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231245ms] [LOG] [SelectComponent] Resolved endpoint: /api/employees @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231246ms] [LOG] [DataRegistry] Registered data source: 42d0bffe-a2dd-41c3-a394-a49b41dbe6a7 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231246ms] [LOG] [SelectComponent] Registering field with form: {name: prepared_by, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231246ms] [LOG] [SelectComponent] Resolved endpoint: /api/employees @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231247ms] [LOG] [DataRegistry] Registered data source: 46553a53-8887-4cf6-8aec-65731d1c7743 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231247ms] [LOG] [SelectComponent] Registering field with form: {name: drawn_by, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231247ms] [LOG] [SelectComponent] Resolved endpoint: /api/employees @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231248ms] [LOG] [DataRegistry] Registered data source: cab6b4df-e368-4dc6-993c-ea41420bd85c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231248ms] [LOG] [SelectComponent] Registering field with form: {name: checked_by, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231248ms] [LOG] [SelectComponent] Resolved endpoint: /api/employees @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231249ms] [LOG] [DataRegistry] Registered data source: fe39148b-f3bb-4aac-9617-cd469acd2d15 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231249ms] [LOG] [SelectComponent] Registering field with form: {name: approved_by, type: select, validation: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231254ms] [LOG] [useWatchMultipleStatePaths] Resolving "project_id": statePath="selectedProject.id", rootKey="selectedProject", nestedPath="id", rootValue= undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231254ms] [LOG] [useWatchMultipleStatePaths] Final resolved: {project_id: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231254ms] [LOG] [useWatchMultipleStatePaths] Resolving "pg_code": statePath="selectedPG.pg_code", rootKey="selectedPG", nestedPath="pg_code", rootValue= undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231254ms] [LOG] [useWatchMultipleStatePaths] Resolving "project_id": statePath="selectedProject.id", rootKey="selectedProject", nestedPath="id", rootValue= undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231254ms] [LOG] [useWatchMultipleStatePaths] Final resolved: {pg_code: undefined, project_id: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231254ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: drawing_number, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231254ms] [LOG] [CodeGenerator] Controller render: {fieldName: drawing_number, fieldValue: ******-**-**-**-**-0001, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231255ms] [LOG] [DataRegistry] Unregistered data source: 3733e8bc-ad47-461c-97a1-699c96cdccc8 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231256ms] [LOG] [DataRegistry] Unregistered data source: cc6eb142-c6a9-464e-9538-a2ce69aba360 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231256ms] [LOG] [useWatchMultipleStatePaths] Initial values: {selectedProject: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231256ms] [LOG] [SelectComponent] Path param "project_id": value = undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231256ms] [LOG] [SelectComponent] Skipping fetch - missing path param value for: project_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231257ms] [LOG] [DataRegistry] Registered data source: 3733e8bc-ad47-461c-97a1-699c96cdccc8 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231257ms] [LOG] [useWatchMultipleStatePaths] Initial values: {selectedPG: undefined, selectedProject: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231257ms] [LOG] [SelectComponent] Path param "pg_code": value = undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231257ms] [LOG] [SelectComponent] Skipping fetch - missing path param value for: pg_code @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231257ms] [LOG] [DataRegistry] Registered data source: cc6eb142-c6a9-464e-9538-a2ce69aba360 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231258ms] [LOG] [CodeGenerator] Setting serial numbers: {10: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231258ms] [LOG] [useWatchMultipleStatePaths] Resolving "project_id": statePath="selectedProject.id", rootKey="selectedProject", nestedPath="id", rootValue= undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231258ms] [LOG] [useWatchMultipleStatePaths] Final resolved: {project_id: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231258ms] [LOG] [useWatchMultipleStatePaths] Resolving "pg_code": statePath="selectedPG.pg_code", rootKey="selectedPG", nestedPath="pg_code", rootValue= undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231258ms] [LOG] [useWatchMultipleStatePaths] Resolving "project_id": statePath="selectedProject.id", rootKey="selectedProject", nestedPath="id", rootValue= undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231258ms] [LOG] [useWatchMultipleStatePaths] Final resolved: {pg_code: undefined, project_id: undefined} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3231258ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: drawing_number, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231258ms] [LOG] [CodeGenerator] Controller render: {fieldName: drawing_number, fieldValue: ******-**-**-**-**-0001, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231259ms] [LOG] [DataRegistry] Unregistered data source: 3733e8bc-ad47-461c-97a1-699c96cdccc8 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231259ms] [LOG] [DataRegistry] Unregistered data source: cc6eb142-c6a9-464e-9538-a2ce69aba360 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231259ms] [LOG] [SelectComponent] Path param "project_id": value = undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231259ms] [LOG] [SelectComponent] Skipping fetch - missing path param value for: project_id @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231259ms] [LOG] [DataRegistry] Registered data source: 3733e8bc-ad47-461c-97a1-699c96cdccc8 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231260ms] [LOG] [SelectComponent] Path param "pg_code": value = undefined @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231260ms] [LOG] [SelectComponent] Skipping fetch - missing path param value for: pg_code @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231260ms] [LOG] [DataRegistry] Registered data source: cc6eb142-c6a9-464e-9538-a2ce69aba360 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3231260ms] [LOG] [CodeGenerator] Setting serial numbers: {10: 1} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231272ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: drawing_number, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3231273ms] [LOG] [CodeGenerator] Controller render: {fieldName: drawing_number, fieldValue: ******-**-**-**-**-0001, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3239498ms] [LOG] [CodeGenerator] renderField: {hasFormContext: true, name: drawing_number, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3239498ms] [LOG] [CodeGenerator] Controller render: {fieldName: drawing_number, fieldValue: ******-**-**-**-**-0001, generatedCode: ******-**-**-**-**-0001} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3897282ms] [LOG] [DataRegistry] Unregistered data source: 36739e73-1f58-4524-8482-a9398511c403 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3897282ms] [LOG] [DataRegistry] Unregistered data source: 65b95f0d-6fad-4093-8871-b72e616ee4da @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3897282ms] [LOG] [DataRegistry] Unregistered data source: d334e9b8-5882-44e4-8134-861dc39f1eb2 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3897283ms] [LOG] [DataRegistry] Unregistered data source: 3733e8bc-ad47-461c-97a1-699c96cdccc8 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3897283ms] [LOG] [DataRegistry] Unregistered data source: cc6eb142-c6a9-464e-9538-a2ce69aba360 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3897283ms] [LOG] [DataRegistry] Unregistered data source: d295df06-1b56-404c-b641-d1dc170f564d @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3897283ms] [LOG] [DataRegistry] Unregistered data source: 42d0bffe-a2dd-41c3-a394-a49b41dbe6a7 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3897284ms] [LOG] [DataRegistry] Unregistered data source: 46553a53-8887-4cf6-8aec-65731d1c7743 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3897284ms] [LOG] [DataRegistry] Unregistered data source: cab6b4df-e368-4dc6-993c-ea41420bd85c @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3897284ms] [LOG] [DataRegistry] Unregistered data source: fe39148b-f3bb-4aac-9617-cd469acd2d15 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3898485ms] [LOG] [DataRegistry] Registered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3901028ms] [LOG] [DataRegistry] Unregistered data source: 42218367-ae9b-4c80-9329-9fd3b51fb186 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3902043ms] [LOG] [DataRegistry] Registered data source: b1f543d2-4af3-4f81-a208-aff5f728eaaa @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3903987ms] [LOG] [SelectComponent] Built validation rule: {name: customer_id, required: true, rule: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3904001ms] [LOG] [SelectComponent] Resolved endpoint: /api/customers @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3904002ms] [LOG] [DataRegistry] Registered data source: f76002eb-e081-40b9-846f-2ce424f839ec @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 3904003ms] [LOG] [SelectComponent] Registering field with form: {name: customer_id, type: select, validation: Object} @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8545
+[ 3904004ms] [LOG] [FormComponent] Registering form: c214c597-44f0-4d21-b210-fe0146a4b196 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 3904004ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:109
+[ 4011747ms] [LOG] [FormComponent] Unregistering form: c214c597-44f0-4d21-b210-fe0146a4b196 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8393
+[ 4011748ms] [LOG] [FormErrorsStore] deregisterForm c214c597-44f0-4d21-b210-fe0146a4b196 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8349
+[ 4011748ms] [LOG] [DataRegistry] Unregistered data source: f76002eb-e081-40b9-846f-2ce424f839ec @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 4155094ms] [LOG] [DataRegistry] Unregistered data source: b1f543d2-4af3-4f81-a208-aff5f728eaaa @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345
+[ 4156524ms] [LOG] [DataRegistry] Registered data source: e5ab0a77-c146-4338-8938-5e3796676531 @ https://dev.erp.eepc.coffeeinc.in/assets/index-ClCVFJfp.js:8345

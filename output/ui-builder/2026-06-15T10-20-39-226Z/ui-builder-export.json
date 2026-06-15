@@ -1,0 +1,316 @@
+{
+  "generatedAt": "2026-06-15T10:20:39.225Z",
+  "totalScreens": 25,
+  "totalGroups": 7,
+  "groups": [
+    {
+      "group": "Masters",
+      "icon": "Database",
+      "position": 0,
+      "screens": [
+        {
+          "name": "Materials",
+          "route": "/masters/materials",
+          "description": "Material code and its Material Name",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 0,
+          "menuIcon": null,
+          "moduleId": 5,
+          "screenId": "290160ad-81e1-493e-a342-42dcf4aa5141",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Units Of Measurement",
+          "route": "/masters/units-of-measurement",
+          "description": "Master - UOM",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 1,
+          "menuIcon": null,
+          "moduleId": 7,
+          "screenId": "e47141a6-8a94-4e74-8630-1d9ba16d96d6",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Items",
+          "route": "/masters/items",
+          "description": "Master - Items",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 2,
+          "menuIcon": null,
+          "moduleId": 2,
+          "screenId": "5deaa851-20a1-4f75-9369-1c696f7b93f5",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Item Groups",
+          "route": "/masters/item-groups",
+          "description": "Master - Item Group",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 3,
+          "menuIcon": null,
+          "moduleId": 3,
+          "screenId": "9ae1be87-8b95-4df0-89c4-72213e8ad94e",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Item Classes",
+          "route": "/masters/item-classes",
+          "description": "Master - Item Classes",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 4,
+          "menuIcon": null,
+          "moduleId": 4,
+          "screenId": "2c8ccf35-c763-4e11-8ada-90b86d8055d6",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Material Specifications",
+          "route": "/masters/material-specifications",
+          "description": "Material specification code and Material Spec Desc (Grade and Standard)",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 5,
+          "menuIcon": null,
+          "moduleId": 6,
+          "screenId": "6535e392-a2cb-40a8-a88b-1123307cc632",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Drawing Categories",
+          "route": "/masters/drawing-categories",
+          "description": "Master - Drawing Category",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 6,
+          "menuIcon": null,
+          "moduleId": 8,
+          "screenId": "55f5898c-b454-4842-980e-d8fc98113536",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Drawing Sizes",
+          "route": "/masters/drawing-sizes",
+          "description": "Master - Drawing Size",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 7,
+          "menuIcon": null,
+          "moduleId": 9,
+          "screenId": "fdb667f0-b00c-409e-a26a-0eca865795dc",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Product Groups (PG)",
+          "route": "/masters/product-groups",
+          "description": "Master - PG",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 8,
+          "menuIcon": null,
+          "moduleId": 15,
+          "screenId": "9e8be912-df0d-4f80-bddf-208e8109584d",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "PGMA",
+          "route": "/masters/pgma",
+          "description": "Master - PGMA",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 9,
+          "menuIcon": null,
+          "moduleId": 16,
+          "screenId": "fbd5b964-5ddb-4c5f-87b5-e3b9efd33acb",
+          "componentCount": 0,
+          "components": []
+        }
+      ]
+    },
+    {
+      "group": "Employees",
+      "icon": "User",
+      "position": 1,
+      "screens": [
+        {
+          "name": "Employees",
+          "route": "/employees",
+          "description": "Employee",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 1,
+          "menuIcon": "User",
+          "moduleId": 14,
+          "screenId": "6a6c2b9c-f23b-4c26-98f9-492cde7b617c",
+          "componentCount": 0,
+          "components": []
+        }
+      ]
+    },
+    {
+      "group": "Customers",
+      "icon": "Users",
+      "position": 2,
+      "screens": [
+        {
+          "name": "Customers",
+          "route": "/customers",
+          "description": "",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 2,
+          "menuIcon": "Users",
+          "moduleId": 12,
+          "screenId": "36d2d540-67a1-4aed-8d66-3258f7c2ecdc",
+          "componentCount": 0,
+          "components": []
+        }
+      ]
+    },
+    {
+      "group": "Projects",
+      "icon": "Table2",
+      "position": 3,
+      "screens": [
+        {
+          "name": "Projects",
+          "route": "/projects/list",
+          "description": "",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 0,
+          "menuIcon": null,
+          "moduleId": 11,
+          "screenId": "e9ed9e0c-6270-473f-bc7f-71ba2cb3fcb0",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Drawing No. Generation",
+          "route": "/projects/drawings",
+          "description": "Drawing Number Generation Module",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 1,
+          "menuIcon": null,
+          "moduleId": 10,
+          "screenId": "0821bad7-9995-48aa-a47b-a7538ef8f895",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Applicable PGMA",
+          "route": "/projects/applicable-pgma",
+          "description": "",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 2,
+          "menuIcon": null,
+          "moduleId": 18,
+          "screenId": "1e9289f4-6565-405d-a636-331f8a570b5b",
+          "componentCount": 0,
+          "components": []
+        }
+      ]
+    },
+    {
+      "group": "Material Indents",
+      "icon": "ClipboardList",
+      "position": 4,
+      "screens": [
+        {
+          "name": "Bill of Materials v2",
+          "route": "/bill-of-materials",
+          "description": "",
+          "isPublished": true,
+          "isMenu": true,
+          "menuPosition": 0,
+          "menuIcon": null,
+          "moduleId": 22,
+          "screenId": "db427bc2-5693-4e85-a893-a146ad4afe64",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Raw Material Indents",
+          "route": "/raw-material-indents",
+          "description": null,
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 1,
+          "menuIcon": null,
+          "moduleId": 21,
+          "screenId": "040ed785-525a-405d-8727-cbb56c486fc1",
+          "componentCount": 0,
+          "components": []
+        },
+        {
+          "name": "Bought Out Components",
+          "route": "/boc-indents",
+          "description": "",
+          "isPublished": true,
+          "isMenu": true,
+          "menuPosition": 2,
+          "menuIcon": null,
+          "moduleId": 25,
+          "screenId": "7a898319-c0e2-4a2d-9d0b-900dad1f3e8a",
+          "componentCount": 0,
+          "components": []
+        }
+      ]
+    },
+    {
+      "group": "PMS Generation",
+      "icon": "FileText",
+      "position": 5,
+      "screens": [
+        {
+          "name": "PMS Generation",
+          "route": "/pms-generation",
+          "description": "",
+          "isPublished": false,
+          "isMenu": true,
+          "menuPosition": 5,
+          "menuIcon": "FileText",
+          "moduleId": 28,
+          "screenId": "de87e328-29b3-46f7-ae51-4d9925134dc6",
+          "componentCount": 0,
+          "components": []
+        }
+      ]
+    },
+    {
+      "group": "Adeos Document Intelligence",
+      "icon": null,
+      "position": 6,
+      "screens": [
+        {
+          "name": "Adeos Document Intelligence",
+          "route": "/adeos_document_intelligence",
+          "description": "",
+          "isPublished": false,
+          "isMenu": false,
+          "menuPosition": 6,
+          "menuIcon": null,
+          "moduleId": 8,
+          "screenId": "f8881ab5-591e-4e6d-8bbe-86bf35ca98d9",
+          "componentCount": 0,
+          "components": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+- generic [ref=e2]:
+  - region "Notifications alt+T"
+  - generic [ref=e39]:
+    - generic [ref=e42]:
+      - generic [ref=e44]:
+        - img "EEPC ERP" [ref=e46]
+        - generic [ref=e47]:
+          - generic [ref=e48]: EEPC ERP
+          - generic [ref=e49]: PMS / SL System
+      - generic [ref=e51]:
+        - generic [ref=e52]: Platform
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - link "Home" [ref=e55] [cursor=pointer]:
+              - /url: /
+              - img [ref=e56]
+              - generic [ref=e59]: Home
+          - listitem [ref=e60]:
+            - button "Masters" [ref=e61]:
+              - img [ref=e62]
+              - generic [ref=e66]: Masters
+              - img [ref=e67]
+          - listitem [ref=e69]:
+            - link "Employees" [ref=e70] [cursor=pointer]:
+              - /url: /employees
+              - img [ref=e71]
+              - generic [ref=e74]: Employees
+          - listitem [ref=e75]:
+            - link "Customers" [ref=e76] [cursor=pointer]:
+              - /url: /customers
+              - img [ref=e77]
+              - generic [ref=e82]: Customers
+          - listitem [ref=e83]:
+            - button "Projects" [ref=e84]:
+              - img [ref=e85]
+              - generic [ref=e87]: Projects
+              - img [ref=e88]
+          - listitem [ref=e90]:
+            - button "Material Indents" [ref=e91]:
+              - img [ref=e92]
+              - generic [ref=e95]: Material Indents
+              - img [ref=e96]
+          - listitem [ref=e98]:
+            - link "PMS Generation" [ref=e99] [cursor=pointer]:
+              - /url: /pms-generation
+              - img [ref=e100]
+              - generic [ref=e103]: PMS Generation
+          - listitem [ref=e104]:
+            - link "Adeos Document Intelligence" [ref=e105] [cursor=pointer]:
+              - /url: /adeos_document_intelligence
+              - generic [ref=e106]: Adeos Document Intelligence
+          - listitem [ref=e107]:
+            - button "Admin" [expanded] [active] [ref=e108]:
+              - img [ref=e109]
+              - generic [ref=e121]: Admin
+              - img [ref=e122]
+            - list [ref=e337]:
+              - listitem [ref=e338]:
+                - link "Roles & Permissions" [ref=e339] [cursor=pointer]:
+                  - /url: /admin/roles
+                  - img [ref=e340]
+                  - generic [ref=e342]: Roles & Permissions
+              - listitem [ref=e343]:
+                - link "Users" [ref=e344] [cursor=pointer]:
+                  - /url: /admin/users
+                  - img [ref=e345]
+                  - generic [ref=e350]: Users
+              - listitem [ref=e351]:
+                - link "Menu Management" [ref=e352] [cursor=pointer]:
+                  - /url: /admin/menu-management
+                  - img [ref=e353]
+                  - generic [ref=e354]: Menu Management
+              - listitem [ref=e355]:
+                - link "API Builder" [ref=e356] [cursor=pointer]:
+                  - /url: /admin/backend-builder
+                  - img [ref=e357]
+                  - generic [ref=e362]: API Builder
+              - listitem [ref=e363]:
+                - link "UI Builder" [ref=e364] [cursor=pointer]:
+                  - /url: /admin/screens
+                  - img [ref=e365]
+                  - generic [ref=e368]: UI Builder
+              - listitem [ref=e369]:
+                - link "Table Editor" [ref=e370] [cursor=pointer]:
+                  - /url: /admin/db-admin
+                  - img [ref=e371]
+                  - generic [ref=e373]: Table Editor
+              - listitem [ref=e374]:
+                - link "Component Library" [ref=e375] [cursor=pointer]:
+                  - /url: /admin/component-definitions
+                  - img [ref=e376]
+                  - generic [ref=e378]: Component Library
+              - listitem [ref=e379]:
+                - link "SQL Generator" [ref=e380] [cursor=pointer]:
+                  - /url: /admin/sql-generator
+                  - img [ref=e381]
+                  - generic [ref=e385]: SQL Generator
+              - listitem [ref=e386]:
+                - link "Data Imports" [ref=e387] [cursor=pointer]:
+                  - /url: /admin/imports
+                  - img [ref=e388]
+                  - generic [ref=e392]: Data Imports
+              - listitem [ref=e393]:
+                - link "File Explorer" [ref=e394] [cursor=pointer]:
+                  - /url: /admin/file-explorer
+                  - img [ref=e395]
+                  - generic [ref=e397]: File Explorer
+          - listitem [ref=e124]:
+            - button "Settings" [ref=e125]:
+              - img [ref=e126]
+              - generic [ref=e129]: Settings
+              - img [ref=e130]
+      - list [ref=e133]:
+        - listitem [ref=e134]:
+          - button "CS Coffee Super Admin coffee@coffeeinc.in" [ref=e135]:
+            - generic [ref=e137]: CS
+            - generic [ref=e138]:
+              - generic [ref=e139]: Coffee Super Admin
+              - generic [ref=e140]: coffee@coffeeinc.in
+            - img [ref=e141]
+      - button "Toggle Sidebar" [ref=e144]
+    - main [ref=e145]:
+      - generic [ref=e148]:
+        - button "Toggle Sidebar" [ref=e149] [cursor=pointer]:
+          - img
+          - generic [ref=e150]: Toggle Sidebar
+        - navigation "breadcrumb" [ref=e151]:
+          - list [ref=e152]:
+            - listitem [ref=e154]:
+              - link "Home" [disabled] [ref=e155]
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - generic [ref=e164]: Total Users
+              - img [ref=e165]
+            - generic [ref=e170]:
+              - generic [ref=e171]: "9"
+              - paragraph [ref=e172]: Active users in the system
+              - paragraph [ref=e173]:
+                - generic [ref=e174]: ↑ +12%
+                - text: from last month
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: Active Items
+              - img [ref=e179]
+            - generic [ref=e183]:
+              - generic [ref=e184]: "20"
+              - paragraph [ref=e185]: Items in inventory
+              - paragraph [ref=e186]:
+                - generic [ref=e187]: ↑ +8%
+                - text: from last week
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - generic [ref=e191]: Categories
+              - img [ref=e192]
+            - generic [ref=e197]:
+              - generic [ref=e198]: "126"
+              - paragraph [ref=e199]: Item groups
+              - paragraph [ref=e200]:
+                - generic [ref=e201]: → 2
+                - text: new this month
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - generic [ref=e205]: Drawings
+              - img [ref=e206]
+            - generic [ref=e210]:
+              - generic [ref=e211]: "10"
+              - paragraph [ref=e212]: Technical drawings
+              - paragraph [ref=e213]:
+                - generic [ref=e214]: ↑ +15%
+                - text: from last month
+        - generic [ref=e215]:
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - generic [ref=e219]: Recent Items
+              - paragraph [ref=e220]: Latest items added to the system
+            - table [ref=e224]:
+              - rowgroup [ref=e225]:
+                - row "Code Name Group UOM Weight" [ref=e226]:
+                  - columnheader "Code" [ref=e227]
+                  - columnheader "Name" [ref=e228]
+                  - columnheader "Group" [ref=e229]
+                  - columnheader "UOM" [ref=e230]
+                  - columnheader "Weight" [ref=e231]
+                  - columnheader [ref=e232]
+              - rowgroup [ref=e233]:
+                - row "G1819110000306 FERRULE COMPONENT Nos 0.005" [ref=e234]:
+                  - cell "G1819110000306" [ref=e235]
+                  - cell "FERRULE" [ref=e236]
+                  - cell "COMPONENT" [ref=e237]
+                  - cell "Nos" [ref=e238]
+                  - cell "0.005" [ref=e239]
+                  - cell [ref=e240]:
+                    - button [ref=e241] [cursor=pointer]:
+                      - img
+                - row "F1012740002565 FLANGE (SORF) FITTINGS AND FASTENERS Nos 1.81" [ref=e242]:
+                  - cell "F1012740002565" [ref=e243]
+                  - cell "FLANGE (SORF)" [ref=e244]
+                  - cell "FITTINGS AND FASTENERS" [ref=e245]
+                  - cell "Nos" [ref=e246]
+                  - cell "1.81" [ref=e247]
+                  - cell [ref=e248]:
+                    - button [ref=e249] [cursor=pointer]:
+                      - img
+                - row "T0351530000073 HOLLOW SECTION - RECT. TEMPORARY RMS 15.41" [ref=e250]:
+                  - cell "T0351530000073" [ref=e251]
+                  - cell "HOLLOW SECTION - RECT." [ref=e252]
+                  - cell "TEMPORARY" [ref=e253]
+                  - cell "RMS" [ref=e254]
+                  - cell "15.41" [ref=e255]
+                  - cell [ref=e256]:
+                    - button [ref=e257] [cursor=pointer]:
+                      - img
+                - row "T0021200000095 TUBE TEMPORARY RMS 5.437" [ref=e258]:
+                  - cell "T0021200000095" [ref=e259]
+                  - cell "TUBE" [ref=e260]
+                  - cell "TEMPORARY" [ref=e261]
+                  - cell "RMS" [ref=e262]
+                  - cell "5.437" [ref=e263]
+                  - cell [ref=e264]:
+                    - button [ref=e265] [cursor=pointer]:
+                      - img
+                - row "F1272540000636 HEX. HEAD PLUG FITTINGS AND FASTENERS Nos 0.08" [ref=e266]:
+                  - cell "F1272540000636" [ref=e267]
+                  - cell "HEX. HEAD PLUG" [ref=e268]
+                  - cell "FITTINGS AND FASTENERS" [ref=e269]
+                  - cell "Nos" [ref=e270]
+                  - cell "0.08" [ref=e271]
+                  - cell [ref=e272]:
+                    - button [ref=e273] [cursor=pointer]:
+                      - img
+          - generic [ref=e275]:
+            - generic [ref=e276]:
+              - generic [ref=e277]: Recent Activity
+              - paragraph [ref=e278]: Latest system activities
+            - generic [ref=e280]:
+              - generic [ref=e281]:
+                - img [ref=e284]
+                - generic [ref=e287]:
+                  - paragraph [ref=e288]: New user registered
+                  - paragraph [ref=e289]: John Doe joined the system
+                  - paragraph [ref=e290]: 520d ago
+              - generic [ref=e291]:
+                - img [ref=e294]
+                - generic [ref=e298]:
+                  - paragraph [ref=e299]: Item created
+                  - paragraph [ref=e300]: Steel Rod 10mm added to inventory
+                  - paragraph [ref=e301]: 520d ago
+              - generic [ref=e302]:
+                - img [ref=e305]
+                - generic [ref=e309]:
+                  - paragraph [ref=e310]: Drawing uploaded
+                  - paragraph [ref=e311]: A4 technical drawing processed
+                  - paragraph [ref=e312]: 520d ago
+              - generic [ref=e313]:
+                - img [ref=e316]
+                - generic [ref=e321]:
+                  - paragraph [ref=e322]: Category updated
+                  - paragraph [ref=e323]: Raw Materials category modified
+                  - paragraph [ref=e324]: 520d ago
+              - generic [ref=e325]:
+                - img [ref=e328]
+                - generic [ref=e332]:
+                  - paragraph [ref=e333]: System backup
+                  - paragraph [ref=e334]: Automatic backup completed
+                  - paragraph [ref=e335]: 521d ago

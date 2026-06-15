@@ -1,0 +1,31 @@
+- generic [ref=e2]:
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "Welcome Back" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Sign in to continue to your dashboard and manage your applications.
+    - generic [ref=e9]:
+      - generic [ref=e11]:
+        - img [ref=e13]
+        - generic [ref=e16]:
+          - heading "Sign In" [level=2] [ref=e17]
+          - paragraph [ref=e18]: Enter your credentials to continue
+      - generic [ref=e19]:
+        - group [ref=e20]:
+          - generic [ref=e21]:
+            - text: Email
+            - generic [ref=e22]: "*"
+          - textbox "Email *" [ref=e23]:
+            - /placeholder: you@example.com
+        - group [ref=e24]:
+          - generic [ref=e25]:
+            - text: Password
+            - generic [ref=e26]: "*"
+          - textbox "Password *" [ref=e27]:
+            - /placeholder: Enter your password
+        - button "Sign In" [ref=e28] [cursor=pointer]:
+          - img
+          - text: Sign In
+      - paragraph [ref=e30]:
+        - text: Don't have an account?
+        - button "Sign up" [ref=e31]
