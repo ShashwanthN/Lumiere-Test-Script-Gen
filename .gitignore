@@ -5,11 +5,14 @@ test-report/
 
 # Node.js
 node_modules/
+package-lock.json
 
-# Environment variables
+# Auth / secrets
+storageState.json
 .env
 .env.local
 .env.*.local
+
 
 # OS
 .DS_Store
