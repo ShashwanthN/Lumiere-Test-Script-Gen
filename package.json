@@ -9,7 +9,11 @@
     "map:deps": "node map-dependencies.mjs",
     "assemble:ui": "node assemble-ui-export.mjs",
     "map:screens": "node map-screen-apis.mjs",
-    "pipeline:stage1": "node pipeline-stage1.mjs"
+    "pipeline:stage1": "node pipeline-stage1.mjs",
+    "generate:tests": "node generate-tests.mjs",
+    "test:generated": "npx playwright test --config output/tests/playwright.config.ts",
+    "test:generated:headed": "npx playwright test --config output/tests/playwright.config.ts --headed",
+    "test:report": "npx playwright show-report test-report"
   },
   "keywords": [],
   "author": "",

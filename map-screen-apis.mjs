@@ -115,15 +115,51 @@ function formatConstraint(c) {
 }
 
 // ─── 2b. Extract ALL component data from screens ────────────────────
+// Returns fields grouped by containing modal context:
+//   all  – every named component (deduped by name, last-wins)
+//   add  – fields inside a modal whose title matches Add/Create/New
+//   edit – fields inside a modal whose title matches Edit/Update
 function extractScreenComponents(components) {
-  if (!components || !components.length) return [];
-  const fields = {};
+  if (!components || !components.length) return { all: [], add: [], edit: [] };
+
+  const byId = {};
+  for (const comp of components) byId[comp.id] = comp;
+
+  function findModalTitle(compId) {
+    let id = compId;
+    while (id && byId[id]) {
+      if (byId[id].component_type === 'modal')
+        return byId[id].content?.title || null;
+      id = byId[id].parent_id;
+    }
+    return null;
+  }
+
+  const allFields = {};
+  const addFields = {};
+  const editFields = {};
+
   for (const comp of components) {
     const c = comp.content || {};
-    if (!c.name) continue;
-    fields[c.name] = { componentType: comp.component_type, ...c };
+    if (!c.name || c.componentType === 'text') continue;
+
+    const entry = { componentType: comp.component_type, ...c };
+    allFields[c.name] = entry;
+
+    const modalTitle = findModalTitle(comp.id);
+    if (!modalTitle) continue;
+    if (/add|create|new/i.test(modalTitle)) {
+      if (!addFields[c.name]) addFields[c.name] = entry;
+    } else if (/edit|update/i.test(modalTitle)) {
+      if (!editFields[c.name]) editFields[c.name] = entry;
+    }
   }
-  return Object.values(fields);
+
+  return {
+    all: Object.values(allFields),
+    add: Object.values(addFields),
+    edit: Object.values(editFields),
+  };
 }
 
 // ─── 3. Build API lookup by module_id ──────────────────────────────
@@ -169,7 +205,7 @@ const output = {
       });
       // Sort APIs by dependency order
       apis.sort((a, b) => (a.dependencyOrder ?? 999) - (b.dependencyOrder ?? 999));
-      const screenFields = extractScreenComponents(compsByScreenId[s.id]);
+      const extracted = extractScreenComponents(compsByScreenId[s.id]);
       const tiers = apis.map(a => a.dependencyTier).filter(t => t !== null);
       const minTier = tiers.length ? Math.min(...tiers) : null;
       const maxTier = tiers.length ? Math.max(...tiers) : null;
@@ -180,9 +216,11 @@ const output = {
         moduleId: s.module_id,
         moduleName: moduleMap[s.module_id]?.module_name || null,
         apiCount: apis.length,
-        fieldCount: screenFields.length,
+        fieldCount: extracted.all.length,
         dependencyTierRange: minTier !== null ? { min: minTier, max: maxTier } : null,
-        screenFields,
+        screenFields: extracted.all,
+        addFields: extracted.add,
+        editFields: extracted.edit,
         apis,
       };
     }),
